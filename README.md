@@ -1,6 +1,11 @@
 # EGTools-Excel
 Excel에서 사용할 수 있는 Add-in입니다.
 
+신규 버전은 릴리즈에서 다운로드 받으세요.
+
+https://github.com/EGTools/EGTools-Excel/releases
+
+
 v2.6부터 ExcelDna-Intellisense Add-in을 설치할 경우 셀에 함수 입력시 인라인 도움말을 볼 수 있습니다.
 설치하지 않아도 EGTools를 사용하는 데에 문제는 전혀 없습니다.
 
