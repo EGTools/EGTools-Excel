@@ -18,7 +18,7 @@ v2.6부터 ExcelDna-Intellisense Add-in을 설치할 경우 셀에 함수 입력
    
    Excel이 32비트로 설치된 경우 ExcelDna.IntelliSense.xll
    
-3. Excel 추가기능 에서 다운로드 받은 파일을 찾아 추가합니다. (COM 추가 기능 아님)
+3. [Excel 추가기능] 에서 다운로드 받은 파일을 찾아 추가합니다. (COM 추가 기능 아님)
    
    
 
