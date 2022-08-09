@@ -1,10 +1,7 @@
 # EGTools-Excel
 Excel에서 사용할 수 있는 Add-in입니다.
 
-신규 버전은 릴리즈 페이지에서 다운로드 받으세요.
-
-https://github.com/EGTools/EGTools-Excel/releases
-
+신규 버전도 동일한 이름으로 계속 업데이트 되므로 다운로드 후에 동일한 폴더에 넣으면 됩니다.
 
 
 
