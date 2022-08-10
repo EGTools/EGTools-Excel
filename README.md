@@ -2,7 +2,9 @@
 <p><b>Excel2010부터 사용할 수 있는 Excel 추가기능(Add-in)입니다.</b><br>
    <b>Mac용 Excel에서는 VBA코딩이 달라 사용할 수 없습니다.</b></p>
 <br>
-<p>신규 버전도 동일한 이름으로 계속 업데이트 되므로 다운로드 후에 동일한 폴더에 넣으면 됩니다.</p>
+<p>최종버전은 Release페이지에서 다운로드 하세요.<br>
+https://github.com/EGTools/EGTools-Excel/releases <br>
+신규 버전도 동일한 이름으로 계속 업데이트 되므로 다운로드 후에 동일한 폴더에 넣으면 됩니다.</p>
 <br>
 <p>v2.6부터 ExcelDna-Intellisense Add-in을 설치할 경우 셀에 함수 입력시 인라인 도움말을 볼 수 있습니다.<br>
 이 Add-in을 설치하지 않아도 EGTools를 사용하는 데에는 전혀 문제가 없습니다.</p>
