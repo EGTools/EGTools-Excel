@@ -10,7 +10,7 @@ https://github.com/EGTools/EGTools-Excel/releases <br>
 이 Add-in을 설치하지 않아도 EGTools를 사용하는 데에는 전혀 문제가 없습니다.</p>
 
 <ol type="1">
-<li> ExcelDan-Intellisense는 여기에서 다운로드 하세요.</li> 
+<li> ExcelDna-Intellisense는 여기에서 다운로드 하세요.</li> 
 
    <p> https://github.com/Excel-DNA/IntelliSense/releases/tag/v1.4.2 </p>
 
