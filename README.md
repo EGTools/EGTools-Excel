@@ -13,7 +13,7 @@ https://github.com/EGTools/EGTools-Excel/releases/latest <br>
 <ol type="1">
 <li> ExcelDna-Intellisense는 여기에서 다운로드 하세요.</li> 
 
-   <p> https://github.com/Excel-DNA/IntelliSense/releases/tag/v1.4.2 </p>
+   <p> https://github.com/Excel-DNA/IntelliSense/releases/latest </p>
 
 <li> Excel 버전에 따라 사용하는 파일이 다릅니다. (Windows 버전과 상관없음) </li> 
 
