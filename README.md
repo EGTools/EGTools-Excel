@@ -22,7 +22,21 @@ https://github.com/EGTools/EGTools-Excel/releases/latest <br>
    Excel이 32비트로 설치된 경우 ExcelDna.IntelliSense.xll 
    
 <li> [Excel 추가기능] 에서 다운로드 받은 파일을 찾아 추가합니다. (COM 추가 기능 아님) </li>
-   
-   
+</ol>
+<br>
 
+<p>
+   
+# 설치방법
+   <p> Excel 추가기능 설치 방법은 여기를 참고하세요.<br>
+      https://github.com/EGTools/EGTools-Excel/wiki/Excel-Add-in-%EC%82%AC%EC%9A%A9-%EC%84%A4%EC%A0%95
+      
+<p>
+   
+# 기능설명
 
+## Ribbon Menu 기능
+<ul>
+   <li> 1</li>
+</ol>
+   
