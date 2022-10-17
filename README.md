@@ -2,17 +2,18 @@
 <p><b>Excel2010부터 사용할 수 있는 Excel 추가기능(Add-in)입니다.</b><br>
    <b>Mac용 Excel에서는 VBA코딩이 달라 사용할 수 없습니다.</b></p>
 <br>
-<p>최종버전은 Release페이지에서 다운로드 하세요.<br>
-https://github.com/EGTools/EGTools-Excel/releases/latest <br>
-신규 버전도 동일한 이름으로 계속 업데이트 되므로 다운로드 후에 동일한 폴더에 넣으면 됩니다.</p>
+<p>최종버전은 Release페이지에서 다운로드 하세요.
+<br>신규 버전도 동일한 이름으로 계속 업데이트 되므로 다운로드 후에 동일한 폴더에 넣으면 됩니다.
+<br>https://github.com/EGTools/EGTools-Excel/releases/latest 
+<p>
 <p>공식배포하기 전에 개선/보완된 Pre-Release가 임시로 올라오는 경우도 있습니다.
-<br>https://github.com/EGTools/EGTools-Excel/releases
 <br>기능에 대한 점검이 완료되지 않아 일부 오류가 있을 수 있으므로 사용에 주의를 바랍니다.
+<br>https://github.com/EGTools/EGTools-Excel/releases
 <br>
 <p>
 문의사항은 토론방을 이용 바랍니다.
-https://github.com/EGTools/EGTools-Excel/discussions
-
+<br>https://github.com/EGTools/EGTools-Excel/discussions
+<br>
 
 <p>v2.6부터 ExcelDna-Intellisense Add-in을 설치할 경우 셀에 함수 입력시 인라인 도움말을 볼 수 있습니다.<br>
 이 Add-in을 설치하지 않아도 EGTools를 사용하는 데에는 전혀 문제가 없습니다.</p>
@@ -33,18 +34,21 @@ https://github.com/EGTools/EGTools-Excel/discussions
 <br>
 
 <p>
+<p>
+   
    
 # 설치방법
-   <p> Excel 추가기능 설치 방법은 여기를 참고하세요.<br>
-      https://github.com/EGTools/EGTools-Excel/wiki/Excel-Add-in-%EC%82%AC%EC%9A%A9-%EC%84%A4%EC%A0%95
-
-
-
+<p> Excel 추가기능 설치 방법은 여기를 참고하세요.
+<br>https://github.com/EGTools/EGTools-Excel/wiki/Excel-Add-in-%EC%82%AC%EC%9A%A9-%EC%84%A4%EC%A0%95
+<br>
+<br>
 <p>
+   
 
    
 # 기능설명
-
+<br>
+   
 ## Ribbon Menu 기능
 <ul>
    <li> 보이는 셀 복사 : 화면에 보이는 셀만 선택해서 복사하는 기능</li>
@@ -79,12 +83,10 @@ https://github.com/EGTools/EGTools-Excel/discussions
 </ul>
 <br>
 
-<p>
-
 ## Microsoft Excel 및 365 신규 함수에 대한 호환 UDF
 하위버전의 Excel에서 상위 버전에 추가된 함수를 사용할 수 있습니다.<br>
 ※ 주의사항 : UDF를 과다하게 사용할 경우 Excel계산이 많이 느려질 수 있으므로 작업후 값으로 변경하는 것이 좋습니다.
-
+<br>
 
  ## Microsoft 365 신규 함수 호환
 <ul>
@@ -107,7 +109,6 @@ https://github.com/EGTools/EGTools-Excel/discussions
    <li>ARRAYTOTEXT : 범위나 Array를 텍스트로 전환, 0은 일반형식을 텍스트로, 1은 수식에 사용할 수 있는 텍스트로 변환</li>
 </ul>
 
-
 ## Excel 2019 신규 함수 호환
 <ul>
    <li>XMATCH : 배열 또는 셀 범위에서 지정된 항목을 검색한 다음 항목의 상대 위치를 반환합니다.</li>
@@ -122,7 +123,6 @@ https://github.com/EGTools/EGTools-Excel/discussions
    <li>xLET : 변수 이름과 해당하는 값/수식을 지정하고, 이를 이용한 '사용자 수식'의 결과를 반환 (원함수명 LET)</li>
 </ul>
 
-
 ## Excel 2016 신규 함수 호환
 <ul>
    <li>IFS : 하나 이상의 조건이 충족될지 여부를 확인하고 첫 번째 TRUE 조건에 해당하는 값을 반환</li>
@@ -132,7 +132,6 @@ https://github.com/EGTools/EGTools-Excel/discussions
    <li>TEXTJOIN : 여러 범위 및/또는 문자열을 구분자를 지정하여 연결</li>
    <li>SWITCH : 찾는값과 그 결과에 따라 반환할 값을 최대 126개까지 지정</li>
 </ul>
-
 
 ## Goolgle 스프레드시트 함수에 대한 호환 UDF
 <ul>
@@ -144,7 +143,6 @@ https://github.com/EGTools/EGTools-Excel/discussions
    <li>IsURL : 유효한 URL 값인지 확인</li>
    <li>IsEmail : 국가 또는 지역 코드와 최상위 도메인을 기준으로 유효한 이메일 주소인지 확인</li>
 </ul>
-<br>
 
 ## EG Tools 전용 UDF
 <ul>
@@ -176,8 +174,6 @@ https://github.com/EGTools/EGTools-Excel/discussions
    <li>EG10to36 : 10진수를 36진수로 변환  </li>
 </ul>
 <br>
-
-<p>
 
 
 # 사용권한
