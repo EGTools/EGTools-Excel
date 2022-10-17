@@ -8,8 +8,15 @@ https://github.com/EGTools/EGTools-Excel/releases/latest <br>
 <p>공식배포하기 전에 개선/보완된 Pre-Release가 임시로 올라오는 경우도 있습니다.
 <br>https://github.com/EGTools/EGTools-Excel/releases
 <br>기능에 대한 점검이 완료되지 않아 일부 오류가 있을 수 있으므로 사용에 주의를 바랍니다.
+<br>
+<p>
+문의사항은 토론방을 이용 바랍니다.
+https://github.com/EGTools/EGTools-Excel/discussions
+
+
 <p>v2.6부터 ExcelDna-Intellisense Add-in을 설치할 경우 셀에 함수 입력시 인라인 도움말을 볼 수 있습니다.<br>
 이 Add-in을 설치하지 않아도 EGTools를 사용하는 데에는 전혀 문제가 없습니다.</p>
+
 
 <ol type="1">
 <li> ExcelDna-Intellisense는 여기에서 다운로드 하세요.</li> 
@@ -30,8 +37,11 @@ https://github.com/EGTools/EGTools-Excel/releases/latest <br>
 # 설치방법
    <p> Excel 추가기능 설치 방법은 여기를 참고하세요.<br>
       https://github.com/EGTools/EGTools-Excel/wiki/Excel-Add-in-%EC%82%AC%EC%9A%A9-%EC%84%A4%EC%A0%95
-      
+
+
+
 <p>
+
    
 # 기능설명
 
