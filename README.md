@@ -165,6 +165,7 @@
    <li>ToSolar : 음력날짜를 양력날짜로 변환함, 결과는 날짜형식임 (1900년~2050년)  </li>
    <li>TextBetween : 문자열에서 지정하는 2개의 문자열 사이에 있는 내용을 추출  </li>
    <li>HanToNumber : 한글이나 한자/갖은한자로 된 숫자를 아라비아 숫자로 변환  </li>
+   <li>CompareList : 2개의 목록이나 범위를 비교하여 결과 값을 반환(Pre Release) </li>
    <li>FindFirstData : 참조범위에 데이터가 입력된 첫번째 셀의 순번  </li>
    <li>FindLastData : 참조범위에 데이터가 입력된 마지막 셀의 순번  </li>
    <li>FindIncluded : 찾는내용을 포함하고 있는 셀들의 범위내의 순서를 찾음  </li>
