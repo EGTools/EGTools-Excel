@@ -39,7 +39,7 @@
    
 # 설치방법
 <p> Excel 추가기능 설치 방법은 여기를 참고하세요.
-<br>https://egtools.tistory.com/4
+<br>https://github.com/EGTools/EGTools-Excel/wiki/Excel-Add-in-%EC%82%AC%EC%9A%A9-%EC%84%A4%EC%A0%95
 <br>
 <br>
 <p>
