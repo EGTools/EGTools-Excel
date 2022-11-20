@@ -146,6 +146,9 @@
 
 ## EG Tools 전용 UDF
 <ul>
+   <li>DateTime : 문자열에서 날짜와 시간을 찾아서 날짜와 시간형식으로 변환하는 함수 </li>
+   <li>CountIfColor : 대상 범위에서 지정하는 바탕색/글자색과 같은 것을 세는 함수(조건부 서식 포함) </li>
+   <li>SumIfColor : 대상 범위에서 지정하는 바탕색/글자색과 상응하는 값을 합산하는 함수(조건부 서식 포함) </li>
    <li>iLOOKUP : XLOOKUP과 비슷한데, 찾는 값의 지정한 순서에 해당하는 셀의 그림을 복사해 옴 </li>
    <li>TEXTPICK : 대상문자열에 구분자(들)을 마디로 하여 지정한 순번의 문자열을 반환  </li>
    <li>nLOOKUP : XLOOKUP과 비슷한데, 첫번째가 아닌 지정한 순번의 것을 찾음  </li>
@@ -156,7 +159,7 @@
    <li>CountInStr : 대상문자열에 찾는문자열이 들어 있는 수를 Count  </li>
    <li>EVAL : Excel 수식을 계산한 결과  </li>
    <li>MonthByWeek : 특정 요일을 기준으로 월을 구분하여 월을 구함 </li>
-   <li>WeekNumByWeek : 특정 요일을 기준으로 월내에서의 주차번호를 구함 </li>
+   <li>WeekNumOfMonth : 특정 요일을 기준으로 월내에서의 주차번호를 구함 </li>
    <li>SUMIFBack : 참조범위의 기준셀과 같은 바탕색이면 합산  </li>
    <li>SUMIFFont : 참조범위의 기준셀과 같은 글자색이면 합산  </li>
    <li>CountIFBack : 참조범위의 기준셀과 같은 바탕색인 셀 수  </li>
@@ -181,9 +184,6 @@
 
 # 추가 예정
 <ul>
-   <li>DateTime : 문자열에서 날짜와 시간을 찾아서 날짜와 시간형식으로 변환하는 함수 </li>
-   <li>CountIfColor : 대상 범위에서 지정하는 바탕색/글자색과 같은 것을 세는 함수(조건부 서식 포함) </li>
-   <li>SumIfColor : 대상 범위에서 지정하는 바탕색/글자색과 상응하는 값을 합산하는 함수(조건부 서식 포함) </li>
 </ul>
 <br>
 
