@@ -173,10 +173,6 @@
    <li>EVAL : Excel 수식을 계산한 결과  </li>
    <li>MonthByWeek : 특정 요일을 기준으로 월을 구분하여 월을 구함 </li>
    <li>WeekNumOfMonth : 특정 요일을 기준으로 월내에서의 주차번호를 구함 </li>
-   <li>SUMIFBack : 참조범위의 기준셀과 같은 바탕색이면 합산  </li>
-   <li>SUMIFFont : 참조범위의 기준셀과 같은 글자색이면 합산  </li>
-   <li>CountIFBack : 참조범위의 기준셀과 같은 바탕색인 셀 수  </li>
-   <li>CountIFFont : 참조범위의 기준셀과 같은 글자색인 셀 수  </li>
    <li>ToLunar : 양력날짜를 음력날짜로 변환함, 결과는 문자열이며 윤달인 경우 날짜뒤에 "(윤)"이 추가됨  </li>
    <li>ToSolar : 음력날짜를 양력날짜로 변환함, 결과는 날짜형식임 (1900년~2050년)  </li>
    <li>TextBetween : 문자열에서 지정하는 2개의 문자열 사이에 있는 내용을 추출  </li>
@@ -184,13 +180,6 @@
    <li>CompareList : 2개의 범위나 목록을 비교하여 결과값을 반환  </li>
    <li>US32ToDec :  미국채권의 32분수형으로 표현된 문자열을 일반 10진법 숫자로 변환  </li>
    <li>DecToUS32 : 10진법 숫자를 구분자를 포함한 32분수형 문자열로 변환  </li>
-   <li>FindFirstData : 참조범위에 데이터가 입력된 첫번째 셀의 순번  </li>
-   <li>FindLastData : 참조범위에 데이터가 입력된 마지막 셀의 순번  </li>
-   <li>FindIncluded : 찾는내용을 포함하고 있는 셀들의 범위내의 순서를 찾음  </li>
-   <li>FindSubstring : 찾는내용의 일부분인 셀들의 범위내의 순서를 찾음  </li>
-   <li>NumToXLColumn : 숫자를 Excel 열이름으로 변환  </li>
-   <li>NumFromXLColumn : Excel 열 이름을 열번호 숫자로 변환  </li>
-   <li>EG10to36 : 10진수를 36진수로 변환  </li>
 </ul>
 <br>
 
@@ -203,7 +192,7 @@
 
 
 # 감사인사
-기능에 대한 조언과 테스트를 통해 오류를 잡아 주시는 Chronicle님께 항상 감사 드립니다.<br>
+기능에 대한 조언과 테스트를 통해 오류를 잡아 주시는 분들께 항상 감사 드립니다.<br>
 <br>
 
 
