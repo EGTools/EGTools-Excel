@@ -11,8 +11,8 @@
 <br>https://github.com/EGTools/EGTools-Excel/releases
 <br>
 <p>
-문의사항은 토론방을 이용 바랍니다.
-<br>https://github.com/EGTools/EGTools-Excel/discussions
+문의사항은 Naver Cafe를 이용 바랍니다.
+<br>https:cafe.naver.com/egtools
 <br>
 
 <p>v2.6부터 ExcelDna-Intellisense Add-in을 설치할 경우 셀에 함수 입력시 인라인 도움말을 볼 수 있습니다.<br>
