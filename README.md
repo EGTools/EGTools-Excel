@@ -169,6 +169,7 @@
  <li>ISURL 함수 : 유효한 URL 값인지 확인합니다</li>
 </ul>
 
+
 ## EG Tools 전용 UDF
 ### 검색 함수
 <ul>
@@ -191,6 +192,7 @@
  <li>TRIMENDS 함수 : 양쪽 끝의 공백만 제거합니다.</li>
 </ul>
 ​
+
 ### 계산 및 집계 함수
 <ul>
  <li>COUNTER 함수 : 범위나 배열 데이터에서 각 요소별 빈도수를 나열합니다</li>
@@ -201,15 +203,15 @@
  <li>SAMPLINGAC 함수 : LOT크기와 AQL, 검사수준에 따라 검사할 합격판정 최대 불량수를 구합니다</li>
  <li>SAMPLINGRE 함수 : LOT크기와 AQL, 검사수준에 따라 검사할 불합격판정 최소 불량수를 구합니다.</li>
  <li>SAMPLINGLABEL 함수 : LOT크기와 검사수준에 따른 시료문자를 구합니다</li>
-</ul>
-​
+</ul>​
+
 ### 바코드함수
 <ul>
  <li>BARCODE 함수 : 1D 및 2D 바코드 이미지를 생성합니다 (11종)</li>
  <li>QRCODE 함수 : QRCODE 바코드 이미지를 생성합니다</li>
  <li>CODE128 함수 : CODE128 바코드 이미지를 생성합니다</li>
 </ul>
-​
+
 ### 날짜시간 함수
 <ul>
  <li>KOREANHOLIDAYS 함수 : 대한민국의 공휴일을 나열하는 함수입니다</li>
@@ -220,8 +222,8 @@
  <li>WEEKNUMOFMONTH 함수 : 지정하는 요일을 기준으로 정한 해당주차의 월내의 주차수를 구합니다</li>
  <li>JULIANDAY 함수 : 율리우스적일 (Julian Day Number)을 계산합니다</li>
  <li>JDTODATE 함수 : 율리우스적일 (Julian Day Number)을 양력 날짜로 변환합니다</li>
-</ul>
-​
+</ul>​
+
 ### 색상 함수
 <ul>
  <li>TEXTJOINIFCOLOR 함수 : 대상범위의 보이는 색이 기준셀과 같은 색이면 문자열을 구분자를 이용하여 연결합니다</li>
@@ -230,8 +232,8 @@
  <li>COUNTIFCOLOR 함수 : 대상범위의 보이는 색이 기준셀과 같은 바탕색/글자색이면 숫자를 셉니다</li>
  <li>RGB 함수 : Red, Green, Blue 색상값으로 True Color 색상값을 계산합니다</li>
  <li>TORGB 함수 : True Color 색상값을 Red, Green, Blue 색상값으로 분해합니다</li>
-</ul>
-​
+</ul>​
+
 ### 변환 함수
 <ul>
  <li>JSONPARSE 함수 : JSON 문자열의 경로명과 일치하는 값을 검색합니다</li>
@@ -246,8 +248,8 @@
  <li>HANTONUMBER 함수 : 한글이나 한자 및 갖은한자로 입력된 숫자를 아라비아 숫자로 변환합니다</li>
  <li>US32TODEC 함수 : 미국 채권시장의 32분수 표시형식을 십진수로 변환합니다</li>
  <li>DECTOUS32 함수 : 일반 숫자를 미국 채권시장의 32분수 표시형식으로 변환합니다</li>
-</ul>
-​
+</ul>​
+
 ### 공개API 함수
 <ul>
  <li>ZIPCODE 함수 : 도로명 주소나 건물명 등의 키워드로 우편번호 및 도로명주소, 지번주소를 검색합니다</li>
@@ -257,8 +259,8 @@
  <li>OILPRICE 함수 : OPINET에서 제공하는 API를 이용하여 지역별 유종별 평균유가를 조회합니다</li>
  <li>GASSTATION 함수 : OPINET에서 제공하는 API를 이용하여 주변 유가를 검색합니다</li>
  <li>BRNSTATUS 함수 : 국세청의 API를 이용하여 사업자등록번호의 현재 상태를 조회합니다</li>
-</ul>
-​
+</ul>​
+
 ### 기타 함수
 <ul>
  <li>SHEETSLIST 함수 : 현재 Excel 파일의 시트 목록을 작성합니다</li>
