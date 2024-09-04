@@ -1,2 +1,2 @@
-EGBarcode.xlam
-EGqcF.xlam
+EGBarcode.xlam : Barcode functions and Macro for barcode creating
+EGqcF.xlam : Quality inspection sampling functions and marco for making Sampling standard tables.
