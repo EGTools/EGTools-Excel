@@ -1,2 +1,2 @@
-EGBarcode.xlam : Barcode functions and Macro for barcode creating
-EGqcF.xlam : Quality inspection sampling functions and marco for making Sampling standard tables.
+EGBarcode.xlam : 바코드 발행 함수와 바코드 발행 매크로 기능
+EGqcF.xlam : ISO 2859-1에 따른 품질 샘플링 검사 관련 함수 및 샘플링표 작성 매크로 
