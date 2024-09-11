@@ -253,7 +253,7 @@
 ## 기타 함수
 <ul>
  <li>SHEETSLIST 함수 : 현재 Excel 파일의 시트 목록을 작성합니다</li>
- <li>IPINFO 함수 : </li>
+ <li>IPINFO 함수 : IP Address 기본정보</li>
  <li>DIRFOLDER 함수 : 지정한 폴더의 파일 목록을 출력합니다</li>
  <li>IMPORTURL 함수 : 인터넷 페이지의 소스를 표시합니다</li>
 </ul>
