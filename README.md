@@ -15,22 +15,7 @@
 <br>https://cafe.naver.com/egtools
 <br>
 
-<p>v2.6부터 ExcelDna-Intellisense Add-in을 설치할 경우 셀에 함수 입력시 인라인 도움말을 볼 수 있습니다.<br>
-이 Add-in을 설치하지 않아도 EGTools를 사용하는 데에는 전혀 문제가 없습니다.</p>
-<p>v4.5부터 ExcelDna-Intellisense 지원을 삭제합니다.</p>
-
-<ol type="1">
-<li> ExcelDna-Intellisense는 여기에서 다운로드 하세요.</li> 
-
-   <p> https://github.com/Excel-DNA/IntelliSense/releases/latest </p>
-
-<li> Excel 버전에 따라 사용하는 파일이 다릅니다. (Windows 버전과 상관없음) </li> 
-
-   Excel이 64비트로 설치된 경우 ExcelDna.IntelliSense64.xll<br>
-   Excel이 32비트로 설치된 경우 ExcelDna.IntelliSense.xll 
-   
-<li> [Excel 추가기능] 에서 다운로드 받은 파일을 찾아 추가합니다. (COM 추가 기능 아님) </li>
-</ol>
+<p>v4.5.5에서 ExcelDna-Intellisense Add-in 지원 기능을 삭제하였습니다.<br>
 <br>
 
 <p>
