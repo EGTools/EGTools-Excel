@@ -185,6 +185,7 @@
  <li>EVAL 함수 : 주어진 문자열의 Excel에서의 계산 결과를 산출합니다</li>
  <li>IFVISIBLE 함수 : 보이는 셀에 대해서만 각종 통계 함수를 적용합니다</li>
  <li>AGGREGATEC 함수 : 목록 또는 데이터베이스의 숨겨진 셀을 모두 제외할 수 있는 집계를 반환합니다</li>
+<br>
 <p>아래 함수는 별도 추가기능인 EGqcF.xlam으로 분리되었습니다.</p>
  <li>SAMPLINGSIZE 함수 : LOT크기와 AQL, 검사방법에 따라 검사할 시료수를 구합니다</li>
  <li>SAMPLINGAC 함수 : LOT크기와 AQL, 검사수준에 따라 검사할 합격판정 최대 불량수를 구합니다</li>
