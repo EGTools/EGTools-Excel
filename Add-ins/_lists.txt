@@ -1,2 +1,3 @@
-EGBarcode.xlam : 바코드 발행 함수와 바코드 발행 매크로 기능
-EGqcF.xlam : ISO 2859-1에 따른 품질 샘플링 검사 관련 함수 및 샘플링표 작성 매크로 
+EGBarcode.xlam : 바코드 발행 함수와 바코드 발행 매크로.
+EGqcF.xlam : ISO 2859-1에 따른 품질 샘플링 검사 관련 함수와 샘플링표 시트를 작성하는 매크로.
+EGFocus.xlam : 선택된 셀의 행/열을 강조하는 기능.  보기 tab에 'Cell Focus' 메뉴그룹으로 추가됨.
