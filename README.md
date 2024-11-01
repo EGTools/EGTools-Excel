@@ -1,5 +1,5 @@
 # EGTools-Excel
-<br>**Excel2010부터 사용할 수 있는 Excel 추가기능(Add-in)입니다.**
+<br>**Excel2007부터 사용할 수 있는 Excel 추가기능(Add-in)입니다.**
 <br>_Mac용 Excel에서는 VBA코드가 달라 사용할 수 없습니다_
 
 <br>최종버전은 Release페이지에서 다운로드 하세요.
