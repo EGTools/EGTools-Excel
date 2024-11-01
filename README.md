@@ -228,13 +228,13 @@
 - [MONTHBYWEEK 함수](https://cafe.naver.com/egtools/57) : 지정하는 요일을 기준으로 정한 해당주차의 월을 확인합니다
 - [WEEKNUMOFMONTH 함수](https://cafe.naver.com/egtools/58) : 지정하는 요일을 기준으로 정한 해당주차의 월내의 주차수를 구합니다
 - [JULIANDAY 함수](https://cafe.naver.com/egtools/102) : 율리우스적일 (Julian Day Number)을 계산합니다
-- [JDTODATE 함수)(https://cafe.naver.com/egtools/103) : 율리우스적일 (Julian Day Number)을 양력 날짜로 변환합니다
+- [JDTODATE 함수](https://cafe.naver.com/egtools/103) : 율리우스적일 (Julian Day Number)을 양력 날짜로 변환합니다
 ​
 
 ## 색상 함수
 - [TEXTJOINIFCOLOR 함수](https://cafe.naver.com/egtools/84) : 대상범위의 보이는 색이 기준셀과 같은 색이면 문자열을 구분자를 이용하여 연결합니다
 - [DISPLAYCOLOR 함수](https://cafe.naver.com/egtools/70) : 대상셀의 보이는 색으로 바탕색/글자색의 색번호를 반환합니다
-- [SUMIFCOLOR 함수}(https://cafe.naver.com/egtools/69) : 대상범위의 보이는 색이 기준셀과 같은 바탕색/글자색이면 숫자를 더합니다
+- [SUMIFCOLOR 함수](https://cafe.naver.com/egtools/69) : 대상범위의 보이는 색이 기준셀과 같은 바탕색/글자색이면 숫자를 더합니다
 - [COUNTIFCOLOR 함수](https://cafe.naver.com/egtools/68) : 대상범위의 보이는 색이 기준셀과 같은 바탕색/글자색이면 숫자를 셉니다
 - [RGB 함수](https://cafe.naver.com/egtools/148) : Red, Green, Blue 색상값으로 True Color 색상값을 계산합니다
 - [TORGB 함수](https://cafe.naver.com/egtools/149) : True Color 색상값을 Red, Green, Blue 색상값으로 분해합니다
