@@ -89,7 +89,7 @@
 - [양쪽 공백 제거](https://cafe.naver.com/egtools/274) : 현재 시트의 모든 셀에서 시작부분과 끝부분의 공백문자를 제거
 - 메모 정돈 : 현재 시트에서 모든 메모를 삽입된 셀 바로 옆으로 위치를 재정리
 - [메일 머지](https://cafe.naver.com/egtools/32) : 목록과 양식을 이용하여 자동으로 시트나 파일을 만들고, 인쇄 또는 이메일 발송
-- [모양 뽑기](https://cafe.naver.com/egtools/33) : 셀바탕색을 그린 블럭들의 외곽을 따라서 도형을 자동 생성
+- [모양 뽑기](https://cafe.naver.com/egtools/33) : 셀바탕색으로 그린 블럭들의 외곽을 따라서 자유도형을 자동 생성
 
 ## EGTools관련
 - [EGTools 연결 문서 수정](https://cafe.naver.com/egtools/290) : 다른 PC에서 EGTools를 사용한 경로를 수정
