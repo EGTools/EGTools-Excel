@@ -186,7 +186,7 @@
 <br>
 <br>
    
-# EG Tools 전용 UDF
+# EGTools 전용 UDF
 ## 검색 함수
 - [MVLOOKUP 함수](https://cafe.naver.com/egtools/107) : Excel의 VLOOKUP함수를 다량으로 실행한 결과를 출력합니다. (mass VLOOKUP)
 - [MXLOOKUP 함수](https://cafe.naver.com/egtools/211) : Excel의 XLOOKUP함수를 다량으로 실행한 결과를 출력합니다. (mass XLOOKUP)
