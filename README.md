@@ -1,5 +1,6 @@
 # EGTools-Excel
-<br>**Excel2007부터 사용할 수 있는 Excel 추가기능(Add-in)입니다.**
+<br>**EG Tools는 Excel 사용에 도움을 주는 여러 기능과 함수를 제공하는 엑셀추가기능입니다.**
+<br>**Excel 2019, 2021, 2024, Microsoft 365에 추가된 신규 함수를 사용할 수 있도록 지원 합니다.**
 <br>_Mac용 Excel에서는 VBA코드가 달라 사용할 수 없습니다_
 
 <br>최종버전은 Release페이지에서 다운로드 하세요.
