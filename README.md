@@ -15,7 +15,7 @@
 <br>https://cafe.naver.com/egtools
 <br>
 
-<p>v4.5.5에서 ExcelDna-Intellisense Add-in 지원 기능을 삭제하였습니다.<br>
+<p>v4.5.5부터 ExcelDna-Intellisense Add-in 지원 기능을 삭제하였습니다.<br>
 <br>
 
 <p>
@@ -188,7 +188,7 @@
 # EG Tools 전용 UDF
 ## 검색 함수
 <ul>
- <li>MVLOOKUP 함수 : Excel의 VLOOKUP함수를 다량으로 실행한 결과를 출력합니다. (mass VLOOKUP)</li>
+ <li>[MVLOOKUP 함수](https://cafe.naver.com/egtools/107) : Excel의 VLOOKUP함수를 다량으로 실행한 결과를 출력합니다. (mass VLOOKUP)</li>
  <li>ILOOKUP 함수 : 검색 범위에서 찾는 값 중에서 지정하는 순번에 해당하는 이미지를 가져옵니다.(Image LookUp)</li>
  <li>NLOOKUP 함수 : 검색 범위에서 찾는 값과 일치하는 목록에서 지정하는 순번의 값을 찾습니다</li>
  <li>MATCHJOIN 함수 : 찾는 값이나 조건에 해당하는 내용을 연결 문자를 이용하여 연결</li>
