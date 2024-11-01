@@ -14,8 +14,11 @@
 문의사항은 Naver Cafe를 이용 바랍니다.
 <br>https://cafe.naver.com/egtools
 <br>
+<br>
 
-<p>v4.5.5부터 ExcelDna-Intellisense Add-in 지원 기능을 삭제하였습니다.<br>
+> [!NOTE]
+> v4.5.5부터 ExcelDna-Intellisense Add-in 지원 기능을 삭제하였습니다.
+
 <br>
 
 <p>
@@ -188,7 +191,7 @@
 # EG Tools 전용 UDF
 ## 검색 함수
 <ul>
- <li>[MVLOOKUP 함수](https://cafe.naver.com/egtools/107) : Excel의 VLOOKUP함수를 다량으로 실행한 결과를 출력합니다. (mass VLOOKUP)</li>
+ <li>[MVLOOKUP 함수 : Excel의 VLOOKUP함수를 다량으로 실행한 결과를 출력합니다. (mass VLOOKUP)](https://cafe.naver.com/egtools/107)</li>
  <li>ILOOKUP 함수 : 검색 범위에서 찾는 값 중에서 지정하는 순번에 해당하는 이미지를 가져옵니다.(Image LookUp)</li>
  <li>NLOOKUP 함수 : 검색 범위에서 찾는 값과 일치하는 목록에서 지정하는 순번의 값을 찾습니다</li>
  <li>MATCHJOIN 함수 : 찾는 값이나 조건에 해당하는 내용을 연결 문자를 이용하여 연결</li>
@@ -268,7 +271,7 @@
  <li>DECTOUS32 함수 : 일반 숫자를 미국 채권시장의 32분수 표시형식으로 변환합니다</li>
 </ul>​
 
-## 공개API 함수
+## 대한민국 공개API 함수
 <ul>
  <li>ZIPCODE 함수 : 도로명 주소나 건물명 등의 키워드로 우편번호 및 도로명주소, 지번주소를 검색합니다</li>
  <li>GEOPOINT 함수 : 도로명 주소를 기준으로 해당 주소의 지도 좌표를 확인합니다</li>
