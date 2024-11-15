@@ -1,22 +1,23 @@
 # EGTools-Excel
-<br>**EG Tools는 Excel 사용에 도움을 주는 여러 기능과 함수를 제공하는 엑셀추가기능입니다.**
-<br>**Excel 2019, 2021, 2024, Microsoft 365에 추가된 신규 함수를 사용할 수 있도록 지원 합니다.**
-<br>_Mac용 Excel에서는 VBA코드가 달라 사용할 수 없습니다_
+<br>**EGTools is an Excel add-in that provides various functions and features to help you use Excel.**
+<br>**It supports new functions added to Excel 2019, 2021, 2024, and Microsoft 365.**
+<br>
+_The VBA code is different, it cannot be used in Excel for Mac._
 
-<br>최종버전은 Release페이지에서 다운로드 하세요.
-<br>신규 버전도 동일한 이름으로 계속 업데이트 되므로 다운로드 후에 동일한 폴더에 넣으면 됩니다.
+<br>Please download the latest version from the Release page.
+<br>New versions will continue to be updated with the same name, so just put them in the same folder after downloading.
 <br>https://github.com/EGTools/EGTools-Excel/releases/latest 
 <br>
-<br>공식배포하기 전에 개선/보완된 Pre-Release가 임시로 올라오는 경우도 있습니다.
-<br>기능에 대한 점검이 완료되지 않아 일부 오류가 있을 수 있으므로 사용에 주의를 바랍니다.
+<br>Before the official distribution, there may be cases where improved/supplemented Pre-Release is temporarily uploaded.
+<br>Please use it with caution as there may be some errors because the function inspection has not been completed.
 <br>https://github.com/EGTools/EGTools-Excel/releases
 <br>
-<br>문의사항은 Naver Cafe를 이용 바랍니다.
+<br>For inquiries, please use Naver Cafe.
 <br>https://cafe.naver.com/egtools
 <br>
 
 > [!NOTE]
-> v4.5.5부터 ExcelDna-Intellisense Add-in 지원 기능을 삭제하였습니다.
+> From v4.5.5, supporting for ExcelDna-Intellisense Add-in has been removed.
 
 <br>
 
@@ -24,281 +25,280 @@
 <p>
    
    
-# 설치방법
-<p> Excel 추가기능 설치 방법은 여기를 참고하세요.
+# How to install
+<p> For instructions on how to install Excel add-ins, please refer to
 <br>https://cafe.naver.com/egtools/14
 <br>
 <br>
    
-# Ribbon Menu 기능
-## [보이는 셀만](https://cafe.naver.com/egtools/23)
-- 보이는 셀 복사 : 화면에 보이는 셀만 선택해서 복사하는 기능
-- 전체 복사 : 화면에 보이는 셀과 보이지 않는 셀 모두 복사하는 기능
-   상기 2개 기능은 아래 보이는 셀에 붙여넣기 하기 전에 먼저 수행해야 합니다.
-- 모두 붙여넣기 : 셀서식과 값을 모두 보이는 셀에만 붙여넣기
-- 값만 붙여넣기 : 값만 보이는 셀에 붙여넣기
-- 수식 붙여넣기 : 수식만 보이는 셀에 붙여넣기
+# Ribbon Menu Features
+## [Only visible cells](https://cafe.naver.com/egtools/23)
+- Copy Visible Cells: A function to copy only the cells visible on the screen.
+- Copy All: Ability to copy both visible and invisible cells on the screen.
+- The above two functions must be performed first before pasting into the visible cells below.
+- Paste All: Paste only visible cells with both cell format and values.
+- Paste values ​​only: Paste into cells where only the values ​​are visible.
+- Paste formula: Paste into cells where only the formula is visible
 
-## [병합/분할](https://cafe.naver.com/egtools/24)
-- 내용 병합 : 셀을 병합하면서 내용까지 모두 같이 병합함
-- 열끼리 병합 : 선택된 영역에 대해서 열별로 '내용 병합'을 한 번에 수행함
-- 행끼리 병합 : 선택된 영역에 대해서 행별로 '내용 병합'을 한 번에 수행함
-<br>상기 2개의 기능은 내용병합을 할 때 텍스트 서식을 유지하는 것과 서식을 제거하는 것이 있음
-- 연속값 병합 : 열방향(아래쪽)으로 같은 값이 연속될 때 셀을 자동으로 병합함
-- 행 나누기 : 줄바꿈이 있는 셀 내용을 여러 행(줄)으로 나누어 줌
-- 열 나누기 : 구분자가 있는 셀 내용을 여러 열(칸)로 나누어 줌
-<br>상기 2개의 기능은 텍스트 서식 그대로 진행하는 것과 서식없이 진행하는 것이 있음
-- 나누고 채우기 : 병합된 셀을 분리하면서 모두 같은 내용으로 복사해 줌
+## [Merge/Split](https://cafe.naver.com/egtools/24)
+- Merge contents: Merge cells and merge all contents together.
+- Merge columns: Performs 'Merge contents' for each column in the selected area at once.
+- Merge Rows: Performs 'Merge Contents' for each row in the selected area at once.
+- The above two functions include maintaining text formatting and removing formatting when merging content.
+- Merge Consecutive Values: Automatically merges cells when the same values ​​are consecutive in the column direction (downward).
+- Split Row: Splits cell contents with line breaks into multiple rows (lines).
+- Split Column: Divide the cell contents with a separator into multiple columns (columns).
+- The above two functions can be used with text format or without format.
+- Divide and Fill: Separate merged cells and copy all the same content
 
-## [사진/그림](https://cafe.naver.com/egtools/25)
-- 선택 삽입 : 선택한 셀에 PC에 저장된 사진/그림을 하나 삽입함
-- 폴더 삽입 : 파일명이 셀 내용에 입력된 경우 지정하는 폴더에서 해당 사진/그림을 일괄 삽입함
-- 선택 맞춤 : 선택한 사진/그림을 셀에 자동 맞춤 
-- 모두 맞춤 : 현재 시트의 모든 사진/그림을 셀에 자동 맞춤
-- 전체 저장 : 현재 시트의 모든 사진/그림을 지정한 폴더로 모두 일괄 저장함
+## [Photo/Images](https://cafe.naver.com/egtools/25)
+- Insert Selection: Insert a photo/picture saved on your PC into the selected cell.
+- Insert Folder: When a file name is entered in the cell contents, inserts the corresponding photos/pictures from the specified folder in batches.
+- Fit Selection: Automatically fit the selected photo/picture to the cell
+- Fit All: Automatically fits all photos/pictures in the current sheet to the cells.
+- Save All: Save all photos/pictures in the current sheet to the specified folder.
 
-## [달력/일정표](https://cafe.naver.com/egtools/27)
-- 연간 달력 만들기 : 지정하는 연도의 연간 달력 시트를 삽입 (대한민국의 공휴일 표시)
-- 월간 일정표 만들기 : 지정하는 월의 월간 일정표 시트를 삽입(대한민국의 공휴일 및 음력 표시)
-- 주간 일정표 만들기 : 지정하는 날짜가 포함된 주간 일정표 시트를 삽입(대한민국의 공휴일, 음력, 주요행사, 시간일정 표시)
-- 일일 일정표 만들기 : 지정하는 날짜의 일일 일정표 시트를 삽입(대한민국의 공휴일, 음력, 주요 업무, 시간일정, 업무메모 표시)
+## [Calendar/Schedule](https://cafe.naver.com/egtools/27)
+- Create an annual calendar: Insert an annual calendar sheet for the specified year (showing public holidays in Korea)
+- Create a monthly schedule: Insert a monthly schedule sheet for the month you specify (showing Korean public holidays and the lunar calendar)
+- Create a weekly schedule: Insert a weekly schedule sheet with the dates you specify (showing Korean public holidays, lunar calendar, major events, and time schedules)
+- Create a daily schedule: Insert a daily schedule sheet for the specified date (displaying Korean public holidays, lunar calendar, major tasks, time schedule, and work notes)
 
-## [다단계선택](https://cafe.naver.com/egtools/28)
-- 다단계 선택 기준 : 다단계 유효성 검사의 목록(Dropdown List)을 생성
-- 다단계 선택 적용 : 선택한 셀에 다단계 유효성 검사를 적용
-- 다단계 선택 삭제 : 필요없는 다단계 유효성 검사를 삭제
+## [Multi-Level Selection](https://cafe.naver.com/egtools/28)
+- Multi-level selection criteria: Create a dropdown list of multi-step validations
+- Apply multi-level selection: Apply multi-step validation to selected cells.
+- Remove multi-level selection: Remove unnecessary multi-step validation
 
-## [표기능](https://cafe.naver.com/egtools/29)
-- 피벗 해제 : 가로세로 Cross Tab이나 Pivot으로 된 표를 해제하여 일반 Data형 표로 만들어 줌
-- Cross Tab : 일반 Data형 표를 Cross Tab으로 만들어 집계해 줌
-- Table 집계 : 동일 양식의 여러 시트의 자료를 하나로 모아 줌
+## [Table](https://cafe.naver.com/egtools/29)
+- UnPivot: De-pivots a table into a normal data type table by de-pivoting it into a Cross Tab or Pivot table.
+- Cross Tab: Creates a general data type table as a Cross Tab and aggregates it.
+- Table Aggregation: Combine data from multiple sheets of the same format into one.
 
 > [!NOTE]
-> EGBarcode.xlam으로 분리되었습니다.
->## 바코드
->- 1D 바코드 :
->- 2D 바코드 :
->- GS1 바코드 :
+> Separated into EGBarcode.xlam.
+>## Barcode
+>- 1D Barcode :
+>- 2D Barcode :
+>- GS1 Barcode :
 
-## 기타기능
-- 그림으로 저장 : 선택한 영역을 그림파일로 저장
-- 오류 제거 : 현재 시트에서 오류인 셀에 대해서 IFERROR()함수를 자동으로 추가하여 오류가 보이지 않도록 함
-- UDF 제거 : 본 EG Tools의 UDF를 사용한 경우 다른 PC로 보낼 때 UDF를 제거하여 값으로 변경할 수 있음
-- Style삭제 : 셀스타일이 많을 경우 사용하지 않는 Style이나 Built-in이 아닌 Style을 일괄 삭제함
-- [이름 삭제](https://cafe.naver.com/egtools/31) : 보이지 않는 명명된 이름과 유효하지 않은 이름으로 일괄 삭제함
-- 빈셀 정리 : 현재 시트에서 길이가 0인 문자열을 제거
-- [양쪽 공백 제거](https://cafe.naver.com/egtools/274) : 현재 시트의 모든 셀에서 시작부분과 끝부분의 공백문자를 제거
-- 메모 정돈 : 현재 시트에서 모든 메모를 삽입된 셀 바로 옆으로 위치를 재정리
-- [메일 머지](https://cafe.naver.com/egtools/32) : 목록과 양식을 이용하여 자동으로 시트나 파일을 만들고, 인쇄 또는 이메일 발송
-- [모양 뽑기](https://cafe.naver.com/egtools/33) : 셀바탕색으로 그린 블럭들의 외곽을 따라서 자유도형을 자동 생성
+## Other features
+- Save as Image: Save the selected area as an image file.
+- Remove errors: Automatically adds the IFERROR() function to cells that are errors in the current sheet, so that the errors are not visible.
+- Remove UDF: If you used UDF of this EG Tools, you can remove UDF and change it to a value when sending it to another PC.
+- Delete Style: When there are many cell styles, delete all unused styles or styles that are not built-in.
+- [Delete Names](https://cafe.naver.com/egtools/31) : Bulk delete invisible named names and invalid names.
+- Clean up empty cells: remove zero-length strings from the current sheet
+- [Trim Ends](https://cafe.naver.com/egtools/274) : Removes spaces from the beginning and end of all cells in the current sheet.
+- Rearrange notes: Repositions all notes in the current sheet right next to the inserted cell.
+- [Mail Merge](https://cafe.naver.com/egtools/32) : Automatically create sheets or files using lists and forms, and print or email them.
+- [Outline Shapes](https://cafe.naver.com/egtools/33) :  Automatically generates free-form shapes along the outlines of blocks drawn in cell background color.
 
 ## EGTools관련
-- [EGTools 연결 문서 수정](https://cafe.naver.com/egtools/290) : 다른 PC에서 EGTools를 사용한 경로를 수정
-- [EGTools 배열 함수 수정](https://cafe.naver.com/egtools/290) : Excel 버전에 따른 EGTools의 배열 및 함수를 수정
-- [설명서 보기](https://cafe.naver.com/egtools/8) : 간단한 EG Tools의 설명서를 보여줌
-- Version : 현재 버전을 보여주며, 배포된 Update가 있을 경우 링크를 보여줌
-- EGTools 사용중지 : EGTools 추가기능을 잠시 사용중지하거나, 사용중단하고 파일을 삭제
+- [Fix EGTools Local Link](https://cafe.naver.com/egtools/290) : Modify the path to use EGTools on another PC
+- [Fix EGTools Array Formula Result](https://cafe.naver.com/egtools/290) : Fix EGTools array and function according to Excel version
+- [Manual](https://cafe.naver.com/egtools/8) : Shows the documentation for Simple EG Tools
+- Version: Shows the current version and shows a link if there is an update released.
+- Disable EGTools: Temporarily disable the EGTools add-on, or disable it and delete the files.
 
 <br>
 <br>
 
 > [!WARNING]
-> UDF를 과다하게 사용할 경우 Excel계산이 많이 느려질 수 있으므로 작업후 값으로 변경하는 것이 좋습니다.
+> Excessive use of UDF can slow down Excel calculations considerably, so it is recommended to change it to a value after the operation.
 
-# EXCEL 신규 함수에 대한 호환 UDF
-하위버전의 Excel에서 상위 버전에 추가된 함수를 사용할 수 있습니다.<br>
+# EXCEL New Function Compatible UDFs
+You can use functions added in higher versions of Excel in lower versions.<br>
 <br>
 
-## Microsoft 365 신규 예정 함수 호환
-- [REGEXTEST 함수](https://cafe.naver.com/egtools/161) : 텍스트 일부가 정규 표현식과 일치하는지 확인합니다
-- [REGEXEXTRACT 함수](https://cafe.naver.com/egtools/162) : 정규 표현식에 따라 일치하는 하위 문자열을 추출합니다
-- [REGEXREPLACE 함수](https://cafe.naver.com/egtools/163) : 정규 표현식을 사용하여 문자열의 일부를 다른 문자열로 바꿉니다
-- [TRANSLATE 함수](https://cafe.naver.com/egtools/165) : 문자열을 지정하는 언어로 번역합니다
-- [DETECTLANGUAGE 함수](https://cafe.naver.com/egtools/164) : 문자열의 언어를 자동으로 판별합니다
-- [TRIMRANGE 함수](https://cafe.naver.com/egtools/231) : 범위/배열에서 빈행과 빈열을 제거합니다
+## Microsoft 365 New Functions in Beta
+- [REGEXTEST](https://cafe.naver.com/egtools/161) : Checks if part of text matches a regular expression.
+- [REGEXEXTRACT](https://cafe.naver.com/egtools/162) : Extracts substrings that match a regular expression.
+- [REGEXREPLACE](https://cafe.naver.com/egtools/163) : Replaces part of a string with another string using a regular expression.
+- [TRANSLATE](https://cafe.naver.com/egtools/165) : Translates a string into a specified language.
+- [DETECTLANGUAGE](https://cafe.naver.com/egtools/164) : Automatically determines the language of a string.
+- [TRIMRANGE](https://cafe.naver.com/egtools/231) : Removes blank rows and columns from a range/array.
 
-## Microsoft 365 신규 함수 호환
-- [GROUPBY 함수](https://cafe.naver.com/egtools/159) : 한 축을 따라 그룹화하고 연결된 값을 집계할 수 있습니다
-- [PIVOTBY 함수](https://cafe.naver.com/egtools/160) : 두 축을 따라 그룹화하고 연결된 값을 집계할 수 있습니다
-- [PERCENTOF 함수](https://cafe.naver.com/egtools/270) : 해당값을 전체 값으로 나눈 백분율을 계산합니다
+## Microsoft 365 New Functions
+- [GROUPBY](https://cafe.naver.com/egtools/159) : Groups along one axis and aggregates associated values.
+- [PIVOTBY](https://cafe.naver.com/egtools/160) : Groups and aggregates associated values ​​along two axes.
+- [PERCENTOF](https://cafe.naver.com/egtools/270) : Calculates the percentage of a given value divided by the total value.
  
-## Excel 2024 신규 함수 호환
-- [TEXTSPLIT 함수](https://cafe.naver.com/egtools/131) : 열과 행 구분 기호를 사용하여 텍스트 문자열을 분할합니다
-- [TEXTAFTER 함수](https://cafe.naver.com/egtools/132) : 지정된 문자 또는 문자열 뒤에 나타나는 텍스트를 반환합니다
-- [TEXTBEFORE 함수](https://cafe.naver.com/egtools/133) : 지정된 문자 또는 문자열 앞에 나타나는 텍스트를 반환합니다
-- [VSTACK 함수](https://cafe.naver.com/egtools/134) : 배열을 세로방향으로 순서대로 추가하여 더 큰 배열을 반환합니다
-- [HSTACK 함수](https://cafe.naver.com/egtools/135) : 배열을 가로방향으로 순서대로 추가하여 더 큰 배열을 반환합니다
-- [TOCOL 함수](https://cafe.naver.com/egtools/136) : 단일 열의 배열을 반환합니다
-- [TOROW 함수](https://cafe.naver.com/egtools/137) : 단일 행의 배열을 반환합니다
-- [WRAPCOLS 함수](https://cafe.naver.com/egtools/138) : 지정된 수의 요소 뒤에 있는 열별로 제공된 값 행 또는 열을 래핑하여 새 배열을 구성합니다
-- [WRAPROWS 함수](https://cafe.naver.com/egtools/139) : 지정된 수의 요소 뒤에 있는 열별로 제공된 값 행 또는 열을 래핑하여 새 배열을 구성합니다
-- [CHOOSECOLS 함수](https://cafe.naver.com/egtools/140) : 배열이나 범위에서 지정된 열 순서대로 재배열한 배열을 반환합니다
-- [CHOOSEROWS 함수](https://cafe.naver.com/egtools/141) : 배열이나 범위에서 지정된 행 순서대로 재배열한 배열을 반환합니다
-- [TAKE 함수](https://cafe.naver.com/egtools/142) : 배열의 시작 또는 끝에서 지정된 수의 연속 행 또는 열을 반환합니다
-- [DROP 함수](https://cafe.naver.com/egtools/143) : 배열의 시작 또는 끝에서 지정된 수의 행 또는 열을 제외합니다
-- [EXPAND 함수](https://cafe.naver.com/egtools/144) : 배열을 확장하거나 지정된 행 및 열 차원으로 채웁니다
-- [VALUETOTEXT 함수](https://cafe.naver.com/egtools/145)  : 텍스트 값을 변경하지 않고 전달하며 텍스트가 아닌 값을 텍스트로 변환합니다
-- [ARRAYTOTEXT 함수](https://cafe.naver.com/egtools/146)  : 배열내의 텍스트 값을 변경하지 않고 전달하며 텍스트가 아닌 값을 텍스트로 변환합니다
-- [IMAGE 함수](https://cafe.naver.com/egtools/147) : 인터넷에 올려진 이미지 URL이나 컴퓨터에 저장된 파일명으로 이미지를 삽입합니다
+## Excel 2024 New Functions
+- [TEXTSPLIT](https://cafe.naver.com/egtools/131) : Splits a text string using column and row delimiters
+- [TEXTAFTER](https://cafe.naver.com/egtools/132) : Returns the text that appears after a specified character or string.
+- [TEXTBEFORE](https://cafe.naver.com/egtools/133) : Returns the text that appears before a specified character or string.
+- [VSTACK](https://cafe.naver.com/egtools/134) : Adds arrays vertically and returns a larger array.
+- [HSTACK](https://cafe.naver.com/egtools/135) : Appends arrays horizontally and returns a larger array.
+- [TOCOL](https://cafe.naver.com/egtools/136) : Returns an array of a single column.
+- [TOROW](https://cafe.naver.com/egtools/137) : Returns an array of a single row.
+- [WRAPCOLS](https://cafe.naver.com/egtools/138) : Constructs a new array by wrapping the provided rows or columns of values ​​after a specified number of elements.
+- [WRAPROWS](https://cafe.naver.com/egtools/139) : Constructs a new array by wrapping the provided rows or columns of values ​​after a specified number of elements.
+- [CHOOSECOLS](https://cafe.naver.com/egtools/140) : Returns an array rearranged in the specified column order from an array or range.
+- [CHOOSEROWS](https://cafe.naver.com/egtools/141) : Returns an array with rows rearranged in the specified order in an array or range.
+- [TAKE](https://cafe.naver.com/egtools/142) : Returns a specified number of consecutive rows or columns from the beginning or end of an array.
+- [DROP](https://cafe.naver.com/egtools/143) : Excludes a specified number of rows or columns from the beginning or end of an array.
+- [EXPAND](https://cafe.naver.com/egtools/144) : Expands an array or fills it to specified row and column dimensions.
+- [VALUETOTEXT](https://cafe.naver.com/egtools/145)  : Passes text values ​​unchanged and converts non-text values ​​to text.
+- [ARRAYTOTEXT](https://cafe.naver.com/egtools/146)  : Passes text values ​​in an array without changing them and converts non-text values ​​to text.
+- [IMAGE](https://cafe.naver.com/egtools/147) : Inserts an image using an image URL uploaded on the Internet or a file name stored on your computer.
 
-## Excel 2021 신규 함수 호환
-- [XMATCH 함수](https://cafe.naver.com/egtools/73) : 배열 또는 셀 범위에서 지정된 항목을 검색한 다음 항목의 상대 위치를 반환합니다
-- [XLOOKUP 함수](https://cafe.naver.com/egtools/74) : 테이블 또는 행별 범위에서 항목을 찾습니다
-- [XFILTER 함수](https://cafe.naver.com/egtools/75) : 직접 정의한 조건을 바탕으로 일정 범위의 데이터를 필터링합니다
-- [XSORT 함수](https://cafe.naver.com/egtools/76) : 범위 또는 배열의 내용을 정렬합니다
-- [SORTBY 함수](https://cafe.naver.com/egtools/77) : 대응되는 범위 또는 배열의 값을 기준으로 범위 또는 배열의 내용을 정렬합니다
-- [UNIQUE 함수](https://cafe.naver.com/egtools/78) : 목록 또는 범위에서 고유 값의 목록을 반환합니다
-- [SEQUENCE 함수](https://cafe.naver.com/egtools/79) : 1, 2, 3, 4와 같이 일련의 연속된 숫자 목록을 생성합니다
-- [RANDARRAY 함수](https://cafe.naver.com/egtools/80) : 임의의 숫자 배열을 생성합니다
-- [XLET 함수](https://cafe.naver.com/egtools/81) : 계산 결과에 이름을 할당합니다. 중간 계산, 값을 저장하거나 이름을 정의할 수 있습니다
+## Excel 2021 New Functions
+- [XMATCH](https://cafe.naver.com/egtools/73) : Searches for a specified item in an array or range of cells and returns the relative position of the item.
+- [XLOOKUP](https://cafe.naver.com/egtools/74) :Find items in a table or range by row.
+- [XFILTER](https://cafe.naver.com/egtools/75) : Filters a range of data based on conditions you define.
+- [XSORT](https://cafe.naver.com/egtools/76) : Sorts the contents of a range or array.
+- [SORTBY](https://cafe.naver.com/egtools/77) : Sorts the contents of a range or array based on the values ​​in the corresponding range or array.
+- [UNIQUE](https://cafe.naver.com/egtools/78) : Returns a list of unique values ​​from a list or range.
+- [SEQUENCE](https://cafe.naver.com/egtools/79) : Generates a list of consecutive numbers, such as 1, 2, 3, 4.
+- [RANDARRAY](https://cafe.naver.com/egtools/80) : Generates a random number array.
+- [XLET](https://cafe.naver.com/egtools/81) : Assigns a name to the result of a calculation. You can store intermediate calculations, values, or define names.
 
-## Excel 2019 신규 함수 호환
-- [IFS 함수](https://cafe.naver.com/egtools/38) : 하나 이상의 조건이 충족되는지 확인하고 첫 번째 TRUE 조건에 해당하는 값을 반환합니다
-- [MINIFS 함수](https://cafe.naver.com/egtools/39) : 하나 이상의 조건이 모두 충족되는 최소값을 반환합니다
-- [MAXIFS 함수](https://cafe.naver.com/egtools/40) : 하나 이상의 조건이 모두 충족되는 최대값을 반환합니다
-- [CONCAT 함수](https://cafe.naver.com/egtools/41) : 여러 범위 및/또는 문자열의 텍스트를 결합합니다
-- [TEXTJOIN 함수](https://cafe.naver.com/egtools/42) : 여러 범위 및/또는 문자열의 텍스트를 결합하며 구분기호를 포함합니다.
-- [SWITCH 함수](https://cafe.naver.com/egtools/43) : 하나의 수식 또는 값을 평가하고 첫 번째 일치하는 값에 해당하는 결과를 반환합니다
+## Excel 2019 New Functions
+- [IFS](https://cafe.naver.com/egtools/38) : Checks if one or more conditions are met and returns the value corresponding to the first TRUE condition.
+- [MINIFS](https://cafe.naver.com/egtools/39) : Returns the minimum value for which one or more conditions are met.
+- [MAXIFS](https://cafe.naver.com/egtools/40) : Returns the largest value where one or more conditions are met.
+- [CONCAT](https://cafe.naver.com/egtools/41) : Combines text from multiple ranges and/or strings.
+- [TEXTJOIN](https://cafe.naver.com/egtools/42) : Combines text from multiple ranges and/or strings, including delimiters.
+- [SWITCH](https://cafe.naver.com/egtools/43) : Evaluates one formula or value and returns the result corresponding to the first matching value.
 
-## Excel 2013 신규 함수 호환
-- FORMULATEXT 함수 : 지정한 셀에 입력된 함수를 보여줍니다
-- ENCODEURL 함수 : 값을 브라우저에서 사용할 수 있도록 Encoding합니다
-- IFNA 함수 : #N/A 오류일 때 지정한 값으로 변경합니다
-- UNICODE 함수 : 첫번째문자의 유니코드 코드값을 반환합니다
-- UNICHAR 함수 : 지정한 코드값의 유니코드 문자를 반환합니다
+## Excel 2013 New Functions
+- FORMULATEXT : Shows the function entered in the specified cell.
+- ENCODEURL : Encodes a value so that it can be used by the browser.
+- IFNA : Changes to a specified value when there is a #N/A error
+- UNICODE : Returns the Unicode code value of the first character.
+- UNICHAR : Returns the Unicode character with the specified code value.
 
 <br>
 <br>
 
-# Goolgle 스프레드시트 함수 호환
-- [IMPORTRANGE 함수](https://cafe.naver.com/egtools/153) : Google Sheets의 지정하는 범위를 가져옵니다
-- [IMPORTHTML 함수](https://cafe.naver.com/egtools/154) : 인터넷 페이지의 표나 목록을 지정하여 자료를 가져옵니다
-- [IMPORTDATA 함수](https://cafe.naver.com/egtools/155) : RSS나 ATOM feed 정보를 가져옵니다
-- [IMPORTFEED 함수](https://cafe.naver.com/egtools/156) : csv나 tsv 파일의 데이터를 읽어 옵니다
-- [GOOGLETRANSLATE 함수](https://cafe.naver.com/egtools/130) : Google의 번역 서비스를 이용한 번역을 제공합니다
-- [COUNTUNIQUE 함수](https://cafe.naver.com/egtools/128) : 지정된 값과 범위 목록에서 고유 값의 개수를 셉니다
-- [COUNTUNIQUEIFS 함수](https://cafe.naver.com/egtools/129) : 지정된 범위에서 여러 조건에 부합하는 고유 값의 갯수를 셉니다
-- [QUERY 함수](https://cafe.naver.com/egtools/127) : 데이터에서 ADODB에 사용하는 언어로 검색을 실행합니다
-- [EPOCHTODATE 함수](https://cafe.naver.com/egtools/126) : Unix epoch 타임스탬프를 협정 세계시(UTC) 기준의 날짜 및 시간으로 변환합니다
-- [ISBETWEEN 함수](https://cafe.naver.com/egtools/125) : 제공된 값이 다른 두 값 사이에 있는지 확인합니다
-- [ISEMAIL 함수](https://cafe.naver.com/egtools/124) : 최상위 도메인을 기준으로 유효한 이메일 주소인지 확인합니다
-- [ISURL 함수](https://cafe.naver.com/egtools/123) : 유효한 URL 값인지 확인합니다
+# Google Sheets Compatible Functions
+- [IMPORTRANGE](https://cafe.naver.com/egtools/153) : Import a specified range in Google Sheets
+- [IMPORTHTML](https://cafe.naver.com/egtools/154) : Imports data by specifying a table or list from an Internet page.
+- [IMPORTDATA](https://cafe.naver.com/egtools/155) : Import RSS or ATOM feed information
+- [IMPORTFEED](https://cafe.naver.com/egtools/156) : Reads data from a csv or tsv file.
+- [GOOGLETRANSLATE](https://cafe.naver.com/egtools/130) : Provides translation using Google's translation service.
+- [COUNTUNIQUE](https://cafe.naver.com/egtools/128) : Counts the number of unique values ​​in a list of specified values ​​and ranges.
+- [COUNTUNIQUEIFS](https://cafe.naver.com/egtools/129) : Counts the number of unique values ​​that meet multiple conditions in a specified range.
+- [QUERY](https://cafe.naver.com/egtools/127) : Executes a search on data in the language used by ADODB.
+- [EPOCHTODATE](https://cafe.naver.com/egtools/126) : Converts a Unix epoch timestamp to a date and time in Coordinated Universal Time (UTC).
+- [ISBETWEEN](https://cafe.naver.com/egtools/125) : Checks if a given value is between two other values
+- [ISEMAIL](https://cafe.naver.com/egtools/124) : Checks if an email address is valid based on the top-level domain
+- [ISURL](https://cafe.naver.com/egtools/123) : Check if URL value is valid
 
 <br>
 <br>
    
-# EGTools 전용 UDF
-## 검색 함수
-- [MVLOOKUP 함수](https://cafe.naver.com/egtools/107) : Excel의 VLOOKUP함수를 다량으로 실행한 결과를 출력합니다. (mass VLOOKUP)
-- [MXLOOKUP 함수](https://cafe.naver.com/egtools/211) : Excel의 XLOOKUP함수를 다량으로 실행한 결과를 출력합니다. (mass XLOOKUP)
-- [ILOOKUP 함수](https://cafe.naver.com/egtools/51) : 검색 범위에서 찾는 값 중에서 지정하는 순번에 해당하는 이미지를 가져옵니다.(Image LookUp)
-- [NLOOKUP 함수](https://cafe.naver.com/egtools/49) : 검색 범위에서 찾는 값과 일치하는 목록에서 지정하는 순번의 값을 찾습니다
-- [MATCHJOIN 함수](https://cafe.naver.com/egtools/48) : 찾는 값이나 조건에 해당하는 내용을 연결 문자를 이용하여 연결
-- [COMPARELIST 함수](https://cafe.naver.com/egtools/64) : 두개의 목록에 대해서 개별 값을 비교한 결과 목록을 나열합니다
-- [COMPARELISTM 함수](https://cafe.naver.com/egtools/292) : 두개의 목록에 대해서 행별 값을 비교한 결과 목록을 나열합니다
-- [SAMPLE 함수](https://cafe.naver.com/egtools/87) : 지정하는 대상 범위에서 무작위 샘플링 추출하여 목록을 생성합니다
+# EGTools UDF
+## Search functions
+- [MVLOOKUP](https://cafe.naver.com/egtools/107) : Outputs the results of executing Excel's VLOOKUP function in bulk. (mass VLOOKUP)
+- [MXLOOKUP](https://cafe.naver.com/egtools/211) : Outputs the results of executing Excel's XLOOKUP function in bulk. (mass XLOOKUP)
+- [ILOOKUP](https://cafe.naver.com/egtools/51) : Gets the image corresponding to the specified sequence number among the values ​​found in the search range. (Image LookUp)
+- [NLOOKUP](https://cafe.naver.com/egtools/49) : Finds a value with a specified number in a list that matches the value you are looking for in the search range.
+- [MATCHJOIN](https://cafe.naver.com/egtools/48) : Connects the content that matches the search value or condition using a connection character.
+- [COMPARELIST](https://cafe.naver.com/egtools/64) : Lists the results of comparing individual values ​​in two lists.
+- [COMPARELISTM](https://cafe.naver.com/egtools/292) : Lists the results of comparing row-by-row values ​​for two lists.
+- [SAMPLE](https://cafe.naver.com/egtools/87) : Generates a list by randomly sampling from a specified target range.
 
-## 문자열 함수
-- [STREXT 함수](https://cafe.naver.com/egtools/47) : 숫자, 영문, 영숫자, 한글, 일본어, 한자/중국어를 추출하거나 제거합니다
-- [MATCHJOIN 함수](https://cafe.naver.com/egtools/48) : 일치하는 내용에 대응하는 결과 값들을 '연결자'를 이용하여 하나의 문자열을 작성합니다
-- [TEXTPICK 함수](https://cafe.naver.com/egtools/50) :  문자열을 특정 구분자를 기준으로 분리하여 원하는 순번의 값을 추출합니다
-- [TEXTBETWEEN 함수](https://cafe.naver.com/egtools/59) : 지정하는 2개의 문자열 사이에 있는 내용을 추출합니다
-- [TEXTJOINIF 함수](https://cafe.naver.com/egtools/86) : 조건에 만족하는 검색범위의 값을 하나의 문자열로 연결합니다
-- [CLEANB 함수](https://cafe.naver.com/egtools/105) : 인쇄할 수 없는 문자코드를 제거합니다
-- [TRIMENDS 함수](https://cafe.naver.com/egtools/120) : 양쪽 끝의 공백만 제거합니다
+## String functions
+- [STREXT](https://cafe.naver.com/egtools/47) : Extract or remove numbers, English letters, alphanumeric characters, Korean letters, Japanese letters, and Chinese letters/Chinese characters.
+- [MATCHJOIN](https://cafe.naver.com/egtools/48) : Creates a single string using the result values ​​corresponding to the matching contents using a 'joiner'.
+- [TEXTPICK](https://cafe.naver.com/egtools/50) :  Splits a string based on a specific delimiter and extracts the value of the desired sequence.
+- [TEXTBETWEEN](https://cafe.naver.com/egtools/59) : Extracts the content between two specified strings.
+- [TEXTJOINIF](https://cafe.naver.com/egtools/86) : Concatenates values ​​in the search range that satisfy the conditions into a single string.
+- [CLEANB](https://cafe.naver.com/egtools/105) : Removes non-printable character codes.
+- [TRIMENDS](https://cafe.naver.com/egtools/120) : Removes only spaces from both ends.
    
-## 계산 및 집계 함수
-- [COUNTER 함수](https://cafe.naver.com/egtools/17) : 범위나 배열 데이터에서 각 요소별 빈도수를 나열합니다
-- [EVAL 함수](https://cafe.naver.com/egtools/46) : 주어진 문자열의 Excel에서의 계산 결과를 산출합니다
-- [IFVISIBLE 함수](https://cafe.naver.com/egtools/110) : 보이는 셀에 대해서만 각종 통계 함수를 적용합니다
-- [AGGREGATEC 함수](https://cafe.naver.com/egtools/83) : 목록 또는 데이터베이스의 숨겨진 셀을 모두 제외할 수 있는 집계를 반환합니다
+## Calculation and Aggregation Functions
+- [COUNTER](https://cafe.naver.com/egtools/17) : Lists the frequency of each element in a range or array of data.
+- [EVAL](https://cafe.naver.com/egtools/46) : Returns the result of a calculation in Excel for a given string.
+- [IFVISIBLE](https://cafe.naver.com/egtools/110) : Applies various statistical functions only to visible cells.
+- [AGGREGATEC](https://cafe.naver.com/egtools/83) : Returns an aggregate that excludes all hidden cells in a list or database.
 <br>
 
 > [!NOTE]
-> EGqcF.xlam으로 분리되었습니다.
->## QC샘플링 함수 
->- [SAMPLINGSIZE 함수](https://cafe.naver.com/egtools/93) : LOT크기와 AQL, 검사방법에 따라 검사할 시료수를 구합니다
->- [SAMPLINGAC 함수](https://cafe.naver.com/egtools/95) : LOT크기와 AQL, 검사수준에 따라 검사할 합격판정 최대 불량수를 구합니다
->- [SAMPLINGRE 함수](https://cafe.naver.com/egtools/96) : LOT크기와 AQL, 검사수준에 따라 검사할 불합격판정 최소 불량수를 구합니다.
->- [SAMPLINGLABEL 함수](https://cafe.naver.com/egtools/94) : LOT크기와 검사수준에 따른 시료문자를 구합니다
+> It was separated into EGqcF.xlam.
+>## QC sampling function
+>- [SAMPLINGSIZE](https://cafe.naver.com/egtools/93) : Calculates the number of samples to be tested based on the LOT size, AQL, and testing method.
+>- [SAMPLINGAC](https://cafe.naver.com/egtools/95) : Finds the maximum number of defective units to be inspected based on LOT size, AQL, and inspection level.
+>- [SAMPLINGRE](https://cafe.naver.com/egtools/96) : Calculates the minimum number of defective units to be inspected based on LOT size, AQL, and inspection level.
+>- [SAMPLINGLABEL](https://cafe.naver.com/egtools/94) : Get sample text based on LOT size and inspection level.
 ​<br>
 
 > [!NOTE]
-> EGBarcode.xlam으로 분리되었습니다.
->## 바코드함수
->- [BARCODE 함수](https://cafe.naver.com/egtools/90) : 1D 및 2D 바코드 이미지를 생성합니다 (11종)
->- [QRCODE 함수](https://cafe.naver.com/egtools/92) : QRCODE 바코드 이미지를 생성합니다
->- [CODE128 함수](https://cafe.naver.com/egtools/91) : CODE128 바코드 이미지를 생성합니다
+> Separated into EGBarcode.xlam.
+>## Barcode function
+>- [BARCODE](https://cafe.naver.com/egtools/90) : Generate 1D and 2D barcode images (11 types)
+>- [QRCODE](https://cafe.naver.com/egtools/92) : Generate a QRCODE barcode image.
+>- [CODE128](https://cafe.naver.com/egtools/91) : Generates a CODE128 barcode image.
 <br>
 
-## 날짜시간 함수
-- [KOREANHOLIDAYS 함수](https://cafe.naver.com/egtools/20) : 대한민국의 공휴일을 나열하는 함수입니다
-- [TOLUNAR 함수](https://cafe.naver.com/egtools/60) : 양력날짜를 음력날짜로 변환합니다
-- [TOSOLAR 함수](https://cafe.naver.com/egtools/61) : 음력날짜를 양력날짜로 변환합니다
-- [DATETIME 함수](https://cafe.naver.com/egtools/67) : 한글, 한자가 포함된 날짜와 시간형 문자열을 날짜와 시간으로 변환합니다
-- [MONTHBYWEEK 함수](https://cafe.naver.com/egtools/57) : 지정하는 요일을 기준으로 정한 해당주차의 월을 확인합니다
-- [WEEKNUMOFMONTH 함수](https://cafe.naver.com/egtools/58) : 지정하는 요일을 기준으로 정한 해당주차의 월내의 주차수를 구합니다
-- [JULIANDAY 함수](https://cafe.naver.com/egtools/102) : 율리우스적일 (Julian Day Number)을 계산합니다
-- [JDTODATE 함수](https://cafe.naver.com/egtools/103) : 율리우스적일 (Julian Day Number)을 양력 날짜로 변환합니다
+## DateTime Functions
+- [KOREANHOLIDAYS](https://cafe.naver.com/egtools/20) : Lists public holidays in South Korea.
+- [TOLUNAR](https://cafe.naver.com/egtools/60) : Converts a solar date to a lunar date.
+- [TOSOLAR](https://cafe.naver.com/egtools/61) : Converts a lunar date to a solar date.
+- [DATETIME](https://cafe.naver.com/egtools/67) : Converts a date and time string containing Korean and Chinese characters to a date and time.
+- [MONTHBYWEEK](https://cafe.naver.com/egtools/57) : Checks the month of the specified week based on the specified day of the week.
+- [WEEKNUMOFMONTH](https://cafe.naver.com/egtools/58) : Finds the number of weeks in a month based on the specified day of the week.
+- [JULIANDAY](https://cafe.naver.com/egtools/102) : Calculates the Julian Day Number.
+- [JDTODATE](https://cafe.naver.com/egtools/103) : Converts a Julian Day Number to a Gregorian date.
 ​
 
-## 색상 함수
-- [TEXTJOINIFCOLOR 함수](https://cafe.naver.com/egtools/84) : 대상범위의 보이는 색이 기준셀과 같은 색이면 문자열을 구분자를 이용하여 연결합니다
-- [DISPLAYCOLOR 함수](https://cafe.naver.com/egtools/70) : 대상셀의 보이는 색으로 바탕색/글자색의 색번호를 반환합니다
-- [SUMIFCOLOR 함수](https://cafe.naver.com/egtools/69) : 대상범위의 보이는 색이 기준셀과 같은 바탕색/글자색이면 숫자를 더합니다
-- [COUNTIFCOLOR 함수](https://cafe.naver.com/egtools/68) : 대상범위의 보이는 색이 기준셀과 같은 바탕색/글자색이면 숫자를 셉니다
-- [RGB 함수](https://cafe.naver.com/egtools/148) : Red, Green, Blue 색상값으로 True Color 색상값을 계산합니다
-- [TORGB 함수](https://cafe.naver.com/egtools/149) : True Color 색상값을 Red, Green, Blue 색상값으로 분해합니다
+## Color function
+- [TEXTJOINIFCOLOR](https://cafe.naver.com/egtools/84) : Joins strings using a delimiter if the visible color of the target range is the same color as the reference cell.
+- [DISPLAYCOLOR](https://cafe.naver.com/egtools/70) : Returns the color number of the background color/text color as the visible color of the target cell.
+- [SUMIFCOLOR](https://cafe.naver.com/egtools/69) : Adds numbers if the visible color of the target range is the same background color/font color as the reference cell.
+- [COUNTIFCOLOR](https://cafe.naver.com/egtools/68) : Counts the numbers if the visible color of the target range is the same background color/font color as the reference cell.
+- [RGB](https://cafe.naver.com/egtools/148) : Calculates a True Color color value using Red, Green, and Blue color values.
+- [TORGB](https://cafe.naver.com/egtools/149) : Decomposes a True Color color value into Red, Green, and Blue color values.
+
+## Conversion function
+- [UNPIVOT](https://cafe.naver.com/egtools/303) : Converts a pivot table or crosstab to a regular data table.
+- [JSONPARSE](https://cafe.naver.com/egtools/152) : Finds values ​​matching a path name in a JSON string.
+- [JSONTOARRAY](https://cafe.naver.com/egtools/151) : Converts each step and value of a JSON string's pathname into an array.
+- [JSONPAI수](https://cafe.naver.com/egtools/150) : Lists a JSON string as pathname-value pairs.
+- [EXRATE](https://cafe.naver.com/egtools/113) : Check the foreign exchange rate for the South Korean Won
+- [EXPLODE](https://cafe.naver.com/egtools/108) : Lists the columns you specify by breaking them down into delimiters.
+- [TEXTNUMSORT](https://cafe.naver.com/egtools/108) : When sorting data that contains mixed letters and numbers, sorts the numbers as numbers.
+- [PAPAGOTRANSLATE](https://cafe.naver.com/egtools/104) : 네이버의 Papago API를 이용한 번역을 제공합니다
+- [RZ](https://cafe.naver.com/egtools/88) : 0이나 빈셀, 오류를 빈문자열("")로 변환합니다. (Remove Zero)
+- IFERRORX : 
+- [HANTONUMBER](https://cafe.naver.com/egtools/62) : Converts numbers entered in Korean, Chinese characters, and various Chinese characters to Arabic numerals.
+- [US32TODEC](https://cafe.naver.com/egtools/65) : Converts the 32-fraction representation of the US bond market to decimal.
+- [DECTOUS32](https://cafe.naver.com/egtools/66) : Converts a regular number to the 32-digit representation of the U.S. bond market.
 ​
 
-## 변환 함수
-- [UNPIVOT 함수](https://cafe.naver.com/egtools/303) : 피벗테이블이나 크로스탭을 일반 데이터 표로 변환합니다 
-- [JSONPARSE 함수](https://cafe.naver.com/egtools/152) : JSON 문자열의 경로명과 일치하는 값을 검색합니다
-- [JSONTOARRAY 함수](https://cafe.naver.com/egtools/151) : JSON 문자열의 경로명 각 단계와 값을 배열로 구성합니다
-- [JSONPAIR 함수](https://cafe.naver.com/egtools/150) : JSON 문자열을 경로명과 값의 쌍으로 나열합니다
-- [EXRATE 함수](https://cafe.naver.com/egtools/113) : 대한민국 원화의 외환 환율을 조회합니다
-- [EXPLODE 함수](https://cafe.naver.com/egtools/108) : 지정하는 열에 대해서 구분자를 기준으로 분해하여 나열합니다
-- [TEXTNUMSORT 함수](https://cafe.naver.com/egtools/108) : 문자와 숫자가 섞여 있는 데이터를 정렬할 때, 숫자가 숫자로 정렬하도록 합니다
-- [PAPAGOTRANSLATE 함수](https://cafe.naver.com/egtools/104) : 네이버의 Papago API를 이용한 번역을 제공합니다
-- [RZ 함수](https://cafe.naver.com/egtools/88) : 0이나 빈셀, 오류를 빈문자열("")로 변환합니다. (Remove Zero)
-- IFERRORX 함수 : 
-- [HANTONUMBER 함수](https://cafe.naver.com/egtools/62) : 한글이나 한자 및 갖은한자로 입력된 숫자를 아라비아 숫자로 변환합니다
-- [US32TODEC 함수](https://cafe.naver.com/egtools/65) : 미국 채권시장의 32분수 표시형식을 십진수로 변환합니다
-- [DECTOUS32 함수](https://cafe.naver.com/egtools/66) : 일반 숫자를 미국 채권시장의 32분수 표시형식으로 변환합니다
-​
-
-## 대한민국 공개API 함수
-- [SEARCHADDRESS 함수](https://cafe.naver.com/egtools/261) : 도로명 주소 검색을 통하여 정보를 조회합니다
-- [ZIPCODE 함수](https://cafe.naver.com/egtools/106) : 도로명 주소나 건물명 등의 키워드로 우편번호 및 도로명주소, 지번주소를 검색합니다
-- [GEOPOINT 함수](https://cafe.naver.com/egtools/115) : 도로명 주소를 기준으로 해당 주소의 지도 좌표를 확인합니다
-- [GEOCONVERT 함수](https://cafe.naver.com/egtools/117) : 지도 좌표를 다른 좌표계로 변환합니다
-- [GEODISTANCE 함수](https://cafe.naver.com/egtools/118) : 지도 좌표로 거리를 개략적으로 계산합니다
-- [OILPRICE 함수](https://cafe.naver.com/egtools/114) : [OPINET](https://www.opinet.co.kr/user/main/mainView.do)에서 제공하는 API를 이용하여 지역별 유종별 평균유가를 조회합니다
-- [GASSTATION 함수](https://cafe.naver.com/egtools/116) : [OPINET](https://www.opinet.co.kr/user/main/mainView.do)에서 제공하는 API를 이용하여 주변 유가를 검색합니다
-- [BRNSTATUS 함수](https://cafe.naver.com/egtools/119) : 국세청의 API를 이용하여 사업자등록번호의 현재 상태를 조회합니다
+## Republic of Korea public API function
+- [SEARCHADDRESS 함수](https://cafe.naver.com/egtools/261) : Search for information by road name address.
+- [ZIPCODE 함수](https://cafe.naver.com/egtools/106) : Searches for zip codes, road names, and land addresses using keywords such as road name addresses or building names.
+- [GEOPOINT 함수](https://cafe.naver.com/egtools/115) : Check the map coordinates of an address based on the road name address.
+- [GEOCONVERT 함수](https://cafe.naver.com/egtools/117) : Converts map coordinates to another coordinate system.
+- [GEODISTANCE 함수](https://cafe.naver.com/egtools/118) : Roughly calculates distance using map coordinates
+- [OILPRICE 함수](https://cafe.naver.com/egtools/114) : [OPINET](https://www.opinet.co.kr/user/main/mainView.do) Search for the average oil price by region and type.
+- [GASSTATION 함수](https://cafe.naver.com/egtools/116) : [OPINET](https://www.opinet.co.kr/user/main/mainView.do) Search for nearby oil prices using
+- [BRNSTATUS 함수](https://cafe.naver.com/egtools/119) : Check the current status of the business registration number using the National Tax Service API.
 
 
-## 기타 함수
-- [SHEETSLIST 함수](https://cafe.naver.com/egtools/112) : 현재 Excel 파일의 시트 목록을 작성합니다
-- IPINFO 함수 : IP Address 기본정보
-- [DIRFOLDER 함수](https://cafe.naver.com/egtools/109) : 지정한 폴더의 파일 목록을 출력합니다
-- [IMPORTURL 함수](https://cafe.naver.com/egtools/168) : 인터넷 페이지의 소스를 표시합니다
+## Other functions
+- [SHEETSLIST](https://cafe.naver.com/egtools/112) : Creates a list of sheets in the current Excel file.
+- IPINFO : IP Address basic information
+- [DIRFOLDER](https://cafe.naver.com/egtools/109) : Outputs a list of files in a specified folder.
+- [IMPORTURL](https://cafe.naver.com/egtools/168) : Displays the source of an Internet page
 
 
 
-<br>
-
-
-
-# 감사인사
-기능에 대한 조언과 테스트를 통해 오류를 잡아 주시는 분들께 항상 감사 드립니다.<br>
 <br>
 
 
 
-# 사용권한
-본 파일은 개인, 회사, 관공서 등 누구나 무료로 사용할 수 있습니다.<br>
-본 파일을 사용함으로써 발생하는 모든 책임은 사용자에게 있습니다.<br>
-만약 이에 동의하지 않는다면, 사용을 중단하고 파일을 삭제 바랍니다.<br>
+# Thanks
+We are always grateful to those who help us by providing advice and testing on features and by helping us catch errors.<br>
+<br>
+
+
+
+# Permissions
+This file can be used by anyone, including individuals, companies, and government agencies, for free.<br>
+All responsibility arising from the use of this file lies with the user.<br>
+If you do not agree with this, please stop using it and delete the file.<br>
 
 
