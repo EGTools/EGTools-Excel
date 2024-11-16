@@ -267,15 +267,15 @@ You can use functions added in higher versions of Excel in lower versions.<br>
 - [DECTOUS32](https://cafe.naver.com/egtools/66) : Converts a regular number to the 32-digit representation of the U.S. bond market.
 ​
 
-## Republic of Korea public API function
-- [SEARCHADDRESS 함수](https://cafe.naver.com/egtools/261) : Search for information by road name address.
-- [ZIPCODE 함수](https://cafe.naver.com/egtools/106) : Searches for zip codes, road names, and land addresses using keywords such as road name addresses or building names.
-- [GEOPOINT 함수](https://cafe.naver.com/egtools/115) : Check the map coordinates of an address based on the road name address.
-- [GEOCONVERT 함수](https://cafe.naver.com/egtools/117) : Converts map coordinates to another coordinate system.
-- [GEODISTANCE 함수](https://cafe.naver.com/egtools/118) : Roughly calculates distance using map coordinates
-- [OILPRICE 함수](https://cafe.naver.com/egtools/114) : [OPINET](https://www.opinet.co.kr/user/main/mainView.do) Search for the average oil price by region and type.
-- [GASSTATION 함수](https://cafe.naver.com/egtools/116) : [OPINET](https://www.opinet.co.kr/user/main/mainView.do) Search for nearby oil prices using
-- [BRNSTATUS 함수](https://cafe.naver.com/egtools/119) : Check the current status of the business registration number using the National Tax Service API.
+## Public API functions only for Republic of Korea
+- [SEARCHADDRESS](https://cafe.naver.com/egtools/261) : Search for information by road name address.
+- [ZIPCODE](https://cafe.naver.com/egtools/106) : Searches for zip codes, road names, and land addresses using keywords such as road name addresses or building names.
+- [GEOPOINT](https://cafe.naver.com/egtools/115) : Check the map coordinates of an address based on the road name address.
+- [GEOCONVERT](https://cafe.naver.com/egtools/117) : Converts map coordinates to another coordinate system.
+- [GEODISTANCE](https://cafe.naver.com/egtools/118) : Roughly calculates distance using map coordinates
+- [OILPRICE](https://cafe.naver.com/egtools/114) : [OPINET](https://www.opinet.co.kr/user/main/mainView.do) Search for the average oil price by region and type.
+- [GASSTATION](https://cafe.naver.com/egtools/116) : [OPINET](https://www.opinet.co.kr/user/main/mainView.do) Search for nearby oil prices using
+- [BRNSTATUS](https://cafe.naver.com/egtools/119) : Check the current status of the business registration number using the National Tax Service API.
 
 
 ## Other functions
