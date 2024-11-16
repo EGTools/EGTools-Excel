@@ -27,7 +27,7 @@ _The VBA code is different, it cannot be used in Excel for Mac._
    
 # How to install
 <p> For instructions on how to install Excel add-ins, please refer to
-<br>https://cafe.naver.com/egtools/14
+<br>https://github.com/EGTools/EGTools-Excel/wiki/Install-Excel-Add%E2%80%90in
 <br>
 <br>
    
