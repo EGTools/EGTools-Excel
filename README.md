@@ -12,8 +12,8 @@ _The VBA code is different, it cannot be used in Excel for Mac._
 <br>Please use it with caution as there may be some errors because the function inspection has not been completed.
 <br>https://github.com/EGTools/EGTools-Excel/releases
 <br>
-<br>For inquiries, please use Naver Cafe.
-<br>https://cafe.naver.com/egtools
+<br>For inquiries, please use the Discussion menu.
+<br>[Discussions](https://github.com/EGTools/EGTools-Excel/discussions)
 <br>
 
 > [!NOTE]
