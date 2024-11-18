@@ -111,7 +111,7 @@ _The VBA code is different, it cannot be used in Excel for Mac._
 You can use functions added in higher versions of Excel in lower versions.<br>
 <br>
 
-## Microsoft 365 New Functions in Beta
+## [Microsoft 365 New Functions in Preview](https://github.com/EGTools/EGTools-Excel/wiki/3.1.-Microsoft-365-Preview)
 - [REGEXTEST](https://cafe.naver.com/egtools/161) : Checks if part of text matches a regular expression.
 - [REGEXEXTRACT](https://cafe.naver.com/egtools/162) : Extracts substrings that match a regular expression.
 - [REGEXREPLACE](https://cafe.naver.com/egtools/163) : Replaces part of a string with another string using a regular expression.
