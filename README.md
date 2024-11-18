@@ -13,7 +13,7 @@ _The VBA code is different, it cannot be used in Excel for Mac._
 <br>https://github.com/EGTools/EGTools-Excel/releases
 <br>
 <br>For inquiries, please use the Discussion menu.
-<br>[Discussions](https://github.com/EGTools/EGTools-Excel/discussions)
+<br>[EGTools Q & A](https://github.com/EGTools/EGTools-Excel/discussions/categories/q-a)
 <br>
 
 > [!NOTE]
