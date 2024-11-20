@@ -112,17 +112,17 @@ You can use functions added in higher versions of Excel in lower versions.<br>
 <br>
 
 ## [Microsoft 365 New Functions in Preview](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-Preview-New-Functions)
-- REGEXTEST : Checks if part of text matches a regular expression.
-- REGEXEXTRACT : Extracts substrings that match a regular expression.
-- REGEXREPLACE : Replaces part of a string with another string using a regular expression.
-- TRANSLATE : Translates a string into a specified language.
-- DETECTLANGUAGE : Automatically determines the language of a string.
-- TRIMRANGE) : Removes blank rows and columns from a range/array.
+- [REGEXTEST](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-Preview-New-Functions#regextest) : Checks if part of text matches a regular expression.
+- [REGEXEXTRACT](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-Preview-New-Functions#regexextract) : Extracts substrings that match a regular expression.
+- [REGEXREPLACE](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-Preview-New-Functions#regexreplace) : Replaces part of a string with another string using a regular expression.
+- [TRANSLATE](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-Preview-New-Functions#translate) : Translates a string into a specified language.
+- [DETECTLANGUAGE](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-Preview-New-Functions#detectlanguage) : Automatically determines the language of a string.
+- [TRIMRANGE](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-Preview-New-Functions#trimrange) : Removes blank rows and columns from a range/array.
 
 ## [Microsoft 365 New Functions](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-New-Functions)
-- GROUPBY : Groups along one axis and aggregates associated values.
-- PIVOTBY : Groups and aggregates associated values ​​along two axes.
-- PERCENTOF : Calculates the percentage of a given value divided by the total value.
+- [GROUPBY](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-New-Functions#groupby) : Groups along one axis and aggregates associated values.
+- [PIVOTBY](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-New-Functions#pivotby) : Groups and aggregates associated values ​​along two axes.
+- [PERCENTOF](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-New-Functions#percentof) : Calculates the percentage of a given value divided by the total value.
  
 ## Excel 2024 New Functions
 - [TEXTSPLIT](https://cafe.naver.com/egtools/131) : Splits a text string using column and row delimiters
