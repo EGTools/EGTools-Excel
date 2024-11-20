@@ -111,18 +111,18 @@ _The VBA code is different, it cannot be used in Excel for Mac._
 You can use functions added in higher versions of Excel in lower versions.<br>
 <br>
 
-## [Microsoft 365 New Functions in Preview](https://github.com/EGTools/EGTools-Excel/wiki/3.1.-Microsoft-365-Preview)
-- [REGEXTEST](https://cafe.naver.com/egtools/161) : Checks if part of text matches a regular expression.
-- [REGEXEXTRACT](https://cafe.naver.com/egtools/162) : Extracts substrings that match a regular expression.
-- [REGEXREPLACE](https://cafe.naver.com/egtools/163) : Replaces part of a string with another string using a regular expression.
-- [TRANSLATE](https://cafe.naver.com/egtools/165) : Translates a string into a specified language.
-- [DETECTLANGUAGE](https://cafe.naver.com/egtools/164) : Automatically determines the language of a string.
-- [TRIMRANGE](https://cafe.naver.com/egtools/231) : Removes blank rows and columns from a range/array.
+## [Microsoft 365 New Functions in Preview](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-Preview-New-Functions)
+- REGEXTEST : Checks if part of text matches a regular expression.
+- REGEXEXTRACT : Extracts substrings that match a regular expression.
+- REGEXREPLACE : Replaces part of a string with another string using a regular expression.
+- TRANSLATE : Translates a string into a specified language.
+- DETECTLANGUAGE : Automatically determines the language of a string.
+- TRIMRANGE) : Removes blank rows and columns from a range/array.
 
-## Microsoft 365 New Functions
-- [GROUPBY](https://cafe.naver.com/egtools/159) : Groups along one axis and aggregates associated values.
-- [PIVOTBY](https://cafe.naver.com/egtools/160) : Groups and aggregates associated values ​​along two axes.
-- [PERCENTOF](https://cafe.naver.com/egtools/270) : Calculates the percentage of a given value divided by the total value.
+## [Microsoft 365 New Functions](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-New-Functions)
+- GROUPBY : Groups along one axis and aggregates associated values.
+- PIVOTBY : Groups and aggregates associated values ​​along two axes.
+- PERCENTOF : Calculates the percentage of a given value divided by the total value.
  
 ## Excel 2024 New Functions
 - [TEXTSPLIT](https://cafe.naver.com/egtools/131) : Splits a text string using column and row delimiters
