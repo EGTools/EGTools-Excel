@@ -94,7 +94,7 @@ _The VBA code is different, it cannot be used in Excel for Mac._
 - [Mail Merge](https://cafe.naver.com/egtools/32) : Automatically create sheets or files using lists and forms, and print or email them.
 - [Outline Shapes](https://cafe.naver.com/egtools/33) :  Automatically generates free-form shapes along the outlines of blocks drawn in cell background color.
 
-## EGTools관련
+## EGTools related
 - [Fix EGTools Local Link](https://cafe.naver.com/egtools/290) : Modify the path to use EGTools on another PC
 - [Fix EGTools Array Formula Result](https://cafe.naver.com/egtools/290) : Fix EGTools array and function according to Excel version
 - [Manual](https://cafe.naver.com/egtools/8) : Shows the documentation for Simple EG Tools
