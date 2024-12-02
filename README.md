@@ -30,79 +30,8 @@ _The VBA code is different, it cannot be used in Excel for Mac._
 <p> For instructions on how to install Excel add-ins, please refer to
 <br>https://github.com/EGTools/EGTools-Excel/wiki/Install-Excel-Add%E2%80%90in
 <br>
-<br>
-   
-# Ribbon Menu Features
-## [Only visible cells](https://cafe.naver.com/egtools/23)
-- Copy Visible Cells: A function to copy only the cells visible on the screen.
-- Copy All: Ability to copy both visible and invisible cells on the screen.
-- The above two functions must be performed first before pasting into the visible cells below.
-- Paste All: Paste only visible cells with both cell format and values.
-- Paste values ​​only: Paste into cells where only the values ​​are visible.
-- Paste formula: Paste into cells where only the formula is visible
+<br>  
 
-## [Merge/Split](https://cafe.naver.com/egtools/24)
-- Merge contents: Merge cells and merge all contents together.
-- Merge columns: Performs 'Merge contents' for each column in the selected area at once.
-- Merge Rows: Performs 'Merge Contents' for each row in the selected area at once.
-- The above two functions include maintaining text formatting and removing formatting when merging content.
-- Merge Consecutive Values: Automatically merges cells when the same values ​​are consecutive in the column direction (downward).
-- Split Row: Splits cell contents with line breaks into multiple rows (lines).
-- Split Column: Divide the cell contents with a separator into multiple columns (columns).
-- The above two functions can be used with text format or without format.
-- Divide and Fill: Separate merged cells and copy all the same content
-
-## [Photo/Images](https://cafe.naver.com/egtools/25)
-- Insert Selection: Insert a photo/picture saved on your PC into the selected cell.
-- Insert Folder: When a file name is entered in the cell contents, inserts the corresponding photos/pictures from the specified folder in batches.
-- Fit Selection: Automatically fit the selected photo/picture to the cell
-- Fit All: Automatically fits all photos/pictures in the current sheet to the cells.
-- Save All: Save all photos/pictures in the current sheet to the specified folder.
-
-## [Calendar/Schedule](https://cafe.naver.com/egtools/27)
-- Create an annual calendar: Insert an annual calendar sheet for the specified year (showing public holidays in Korea)
-- Create a monthly schedule: Insert a monthly schedule sheet for the month you specify (showing Korean public holidays and the lunar calendar)
-- Create a weekly schedule: Insert a weekly schedule sheet with the dates you specify (showing Korean public holidays, lunar calendar, major events, and time schedules)
-- Create a daily schedule: Insert a daily schedule sheet for the specified date (displaying Korean public holidays, lunar calendar, major tasks, time schedule, and work notes)
-
-## [Multi-Level Selection](https://cafe.naver.com/egtools/28)
-- Multi-level selection criteria: Create a dropdown list of multi-step validations
-- Apply multi-level selection: Apply multi-step validation to selected cells.
-- Remove multi-level selection: Remove unnecessary multi-step validation
-
-## [Table](https://cafe.naver.com/egtools/29)
-- UnPivot: De-pivots a table into a normal data type table by de-pivoting it into a Cross Tab or Pivot table.
-- Cross Tab: Creates a general data type table as a Cross Tab and aggregates it.
-- Table Aggregation: Combine data from multiple sheets of the same format into one.
-
-> [!NOTE]
-> Separated into EGBarcode.xlam.
->## Barcode
->- 1D Barcode :
->- 2D Barcode :
->- GS1 Barcode :
-
-## Other features
-- Save as Image: Save the selected area as an image file.
-- Remove errors: Automatically adds the IFERROR() function to cells that are errors in the current sheet, so that the errors are not visible.
-- Remove UDF: If you used UDF of this EG Tools, you can remove UDF and change it to a value when sending it to another PC.
-- Delete Style: When there are many cell styles, delete all unused styles or styles that are not built-in.
-- [Delete Names](https://cafe.naver.com/egtools/31) : Bulk delete invisible named names and invalid names.
-- Clean up empty cells: remove zero-length strings from the current sheet
-- [Trim Ends](https://cafe.naver.com/egtools/274) : Removes spaces from the beginning and end of all cells in the current sheet.
-- Rearrange notes: Repositions all notes in the current sheet right next to the inserted cell.
-- [Mail Merge](https://cafe.naver.com/egtools/32) : Automatically create sheets or files using lists and forms, and print or email them.
-- [Outline Shapes](https://cafe.naver.com/egtools/33) :  Automatically generates free-form shapes along the outlines of blocks drawn in cell background color.
-
-## EGTools related
-- [Fix EGTools Local Link](https://cafe.naver.com/egtools/290) : Modify the path to use EGTools on another PC
-- [Fix EGTools Array Formula Result](https://cafe.naver.com/egtools/290) : Fix EGTools array and function according to Excel version
-- [Manual](https://cafe.naver.com/egtools/8) : Shows the documentation for Simple EG Tools
-- Version: Shows the current version and shows a link if there is an update released.
-- Disable EGTools: Temporarily disable the EGTools add-on, or disable it and delete the files.
-
-<br>
-<br>
 
 > [!WARNING]
 > Excessive use of UDF can slow down Excel calculations considerably, so it is recommended to change it to a value after the operation.
@@ -285,10 +214,80 @@ You can use functions added in higher versions of Excel in lower versions.<br>
 - [DIRFOLDER](https://cafe.naver.com/egtools/109) : Outputs a list of files in a specified folder.
 - [IMPORTURL](https://cafe.naver.com/egtools/168) : Displays the source of an Internet page
 
-
-
+<br>
 <br>
 
+# Ribbon Menu Features
+## [Only visible cells](https://cafe.naver.com/egtools/23)
+- Copy Visible Cells: A function to copy only the cells visible on the screen.
+- Copy All: Ability to copy both visible and invisible cells on the screen.
+- The above two functions must be performed first before pasting into the visible cells below.
+- Paste All: Paste only visible cells with both cell format and values.
+- Paste values ​​only: Paste into cells where only the values ​​are visible.
+- Paste formula: Paste into cells where only the formula is visible
+
+## [Merge/Split](https://cafe.naver.com/egtools/24)
+- Merge contents: Merge cells and merge all contents together.
+- Merge columns: Performs 'Merge contents' for each column in the selected area at once.
+- Merge Rows: Performs 'Merge Contents' for each row in the selected area at once.
+- The above two functions include maintaining text formatting and removing formatting when merging content.
+- Merge Consecutive Values: Automatically merges cells when the same values ​​are consecutive in the column direction (downward).
+- Split Row: Splits cell contents with line breaks into multiple rows (lines).
+- Split Column: Divide the cell contents with a separator into multiple columns (columns).
+- The above two functions can be used with text format or without format.
+- Divide and Fill: Separate merged cells and copy all the same content
+
+## [Photo/Images](https://cafe.naver.com/egtools/25)
+- Insert Selection: Insert a photo/picture saved on your PC into the selected cell.
+- Insert Folder: When a file name is entered in the cell contents, inserts the corresponding photos/pictures from the specified folder in batches.
+- Fit Selection: Automatically fit the selected photo/picture to the cell
+- Fit All: Automatically fits all photos/pictures in the current sheet to the cells.
+- Save All: Save all photos/pictures in the current sheet to the specified folder.
+
+## [Calendar/Schedule](https://cafe.naver.com/egtools/27)
+- Create an annual calendar: Insert an annual calendar sheet for the specified year (showing public holidays in Korea)
+- Create a monthly schedule: Insert a monthly schedule sheet for the month you specify (showing Korean public holidays and the lunar calendar)
+- Create a weekly schedule: Insert a weekly schedule sheet with the dates you specify (showing Korean public holidays, lunar calendar, major events, and time schedules)
+- Create a daily schedule: Insert a daily schedule sheet for the specified date (displaying Korean public holidays, lunar calendar, major tasks, time schedule, and work notes)
+
+## [Multi-Level Selection](https://cafe.naver.com/egtools/28)
+- Multi-level selection criteria: Create a dropdown list of multi-step validations
+- Apply multi-level selection: Apply multi-step validation to selected cells.
+- Remove multi-level selection: Remove unnecessary multi-step validation
+
+## [Table](https://cafe.naver.com/egtools/29)
+- UnPivot: De-pivots a table into a normal data type table by de-pivoting it into a Cross Tab or Pivot table.
+- Cross Tab: Creates a general data type table as a Cross Tab and aggregates it.
+- Table Aggregation: Combine data from multiple sheets of the same format into one.
+
+> [!NOTE]
+> Separated into EGBarcode.xlam.
+>## Barcode
+>- 1D Barcode :
+>- 2D Barcode :
+>- GS1 Barcode :
+
+## Other features
+- Save as Image: Save the selected area as an image file.
+- Remove errors: Automatically adds the IFERROR() function to cells that are errors in the current sheet, so that the errors are not visible.
+- Remove UDF: If you used UDF of this EG Tools, you can remove UDF and change it to a value when sending it to another PC.
+- Delete Style: When there are many cell styles, delete all unused styles or styles that are not built-in.
+- [Delete Names](https://cafe.naver.com/egtools/31) : Bulk delete invisible named names and invalid names.
+- Clean up empty cells: remove zero-length strings from the current sheet
+- [Trim Ends](https://cafe.naver.com/egtools/274) : Removes spaces from the beginning and end of all cells in the current sheet.
+- Rearrange notes: Repositions all notes in the current sheet right next to the inserted cell.
+- [Mail Merge](https://cafe.naver.com/egtools/32) : Automatically create sheets or files using lists and forms, and print or email them.
+- [Outline Shapes](https://cafe.naver.com/egtools/33) :  Automatically generates free-form shapes along the outlines of blocks drawn in cell background color.
+
+## EGTools related
+- [Fix EGTools Local Link](https://cafe.naver.com/egtools/290) : Modify the path to use EGTools on another PC
+- [Fix EGTools Array Formula Result](https://cafe.naver.com/egtools/290) : Fix EGTools array and function according to Excel version
+- [Manual](https://cafe.naver.com/egtools/8) : Shows the documentation for Simple EG Tools
+- Version: Shows the current version and shows a link if there is an update released.
+- Disable EGTools: Temporarily disable the EGTools add-on, or disable it and delete the files.
+
+<br>
+<br>
 
 
 # Thanks
