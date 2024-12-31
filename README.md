@@ -51,7 +51,7 @@ You can use functions added in higher versions of Excel in lower versions.<br>
 ## [Microsoft 365 New Functions](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-New-Functions)
 - [GROUPBY](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-New-Functions#groupby) : Groups along one axis and aggregates associated values.
 - [PIVOTBY](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-New-Functions#pivotby) : Groups and aggregates associated values ​​along two axes.
-- [PERCENTOF](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-New-Functions#percentof) : Calculates the percentage of a given value divided by the total value.
+- [xPERCENTOF](https://github.com/EGTools/EGTools-Excel/wiki/Microsoft-365-New-Functions#xpercentof) : Calculates the percentage of a given value divided by the total value.
  
 ## Excel 2024 New Functions
 - [TEXTSPLIT](https://cafe.naver.com/egtools/131) : Splits a text string using column and row delimiters
